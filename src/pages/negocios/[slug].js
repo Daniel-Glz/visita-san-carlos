@@ -1,9 +1,9 @@
 import Layout from "@/components/Layout";
 import DetailsPage from "@/components/DetailsPage";
 import React from "react";
-import { gql } from "@apollo/client";
 import client from "@/api/ApolloClient";
 import { getStaticData } from "@/utils";
+import { GET_BUSINESS, GET_BUSINESSES_SLUG } from "@/graphql.queries";
 
 const EventDetails = ({ data }) => {
   const { business } = data;
@@ -19,59 +19,20 @@ const EventDetails = ({ data }) => {
 
 export async function getStaticProps({ params }) {
   const { slug } = params;
-  let { data } = await client.query({
-    query: gql`
-      query
-        {
-          business(id: "${slug}", idType: SLUG) {
-            contact {
-              email
-              facebook
-              instagram
-              name
-              tel
-              website
-            }
-            content {
-              cost
-              description
-              endDate
-              featuredImage {
-                altText
-                sourceUrl
-              }
-              freeAttend
-              organizationName
-              startDate
-              type
-            }
-            title
-          }
-        }
-    `
-  });
+  let { data } = await client.query({query: GET_BUSINESS(slug)});
   let staticData = await getStaticData();
   data = { ...data, ...staticData };
 
   return {
     props: {
       data,
+      revalidate: 1,
     },
   };
 }
 
 export async function getStaticPaths() {
-  const { data } = await client.query({
-    query: gql`
-      query {
-        businesses {
-          nodes {
-            slug
-          }
-        }
-      }
-    `
-  });
+  const { data } = await client.query({query: GET_BUSINESSES_SLUG});
 
   const paths = data.businesses.nodes.map((business) => ({
     params: { slug: business.slug },

@@ -1,6 +1,6 @@
 import { ApolloClient, InMemoryCache } from '@apollo/client';
 
-const URL = 'http://localhost/cms-visit-san-carlos/graphql';
+const URL = process.env.NEXT_PUBLIC_API_URL;
 
 const client = new ApolloClient({
   uri: URL,

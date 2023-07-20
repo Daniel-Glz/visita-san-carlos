@@ -1,9 +1,9 @@
 import Layout from "@/components/Layout";
 import DetailsPage from "@/components/DetailsPage";
 import React from "react";
-import { gql } from "@apollo/client";
 import client from "@/api/ApolloClient";
 import { getStaticData } from "@/utils";
+import { GET_TOURISTIC_PLACE, GET_TOURISTIC_PLACES_SLUG } from "@/graphql.queries";
 
 const EventDetails = ({ data }) => {
   const { touristicPlace } = data;
@@ -19,37 +19,7 @@ const EventDetails = ({ data }) => {
 
 export async function getStaticProps({ params }) {
   const { slug } = params;
-  let { data } = await client.query({
-    query: gql`
-      query {
-        touristicPlace(id: "${slug}", idType: SLUG) {
-          title
-          content {
-            cost
-            description
-            endDate
-            featuredImage {
-              altText
-              sourceUrl
-            }
-            freeAttend
-            organizationName
-            startDate
-            type
-            location {
-              city
-              country
-              streetName
-              streetNumber
-              longitude
-              latitude
-              streetAddress
-            }
-          }
-        }
-      }
-    `
-  });
+  let { data } = await client.query({query: GET_TOURISTIC_PLACE(slug)});
   let staticData = await getStaticData();
   data = { ...data, ...staticData };
 
@@ -61,17 +31,7 @@ export async function getStaticProps({ params }) {
 }
 
 export async function getStaticPaths() {
-  const { data } = await client.query({
-    query: gql`
-      query {
-        touristicPlaces {
-          nodes {
-            slug
-          }
-        }
-      }
-    `
-  });
+  const { data } = await client.query({query: GET_TOURISTIC_PLACES_SLUG});
 
   const paths = data.touristicPlaces.nodes.map((place) => ({
     params: { slug: place.slug },
