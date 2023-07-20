@@ -2512,7 +2512,7 @@ ul {
 --------------------------------------------------------------*/
 .testimonial-one {
   display: block;
-  padding: 120px 0 0px;
+  padding: 120px 0px;
   position: relative;
 }
 

@@ -4,7 +4,7 @@
       "href": "https://www.booking.com/hotel/mx/visita-sancarlos.es.html",
       "text": "Registra tu negocio"
     },
-    "icons":[
+    "icons": [
       {
         "content": "contacto@visitasancarlos.com.mx",
         "icon": "icon-at",
@@ -21,8 +21,7 @@
         "href": "/",
         "id": 1,
         "name": "Inicio",
-        "subNavItems": [
-        ]
+        "subNavItems": []
       },
       {
         "href": "/lugares-turisticos",
@@ -95,9 +94,398 @@
     "home": {
       "banner": {
         "bottomText": "Disfruta de las bellas playas de San Carlos, Sonora",
-        "slides": ["https://www.elsoldemexico.com.mx/incoming/2awenv-son-san-carlos.jpg/ALTERNATES/LANDSCAPE_1140/SON-SAN-CARLOS.jpg"],
+        "slides": [
+          "https://www.elsoldemexico.com.mx/incoming/2awenv-son-san-carlos.jpg/ALTERNATES/LANDSCAPE_1140/SON-SAN-CARLOS.jpg"
+        ],
         "sub_title": "Visita nuesto hermoso pueblo",
         "title": "San Carlos, Sonora"
+      },
+      "three_icon_section": {
+        "items": [
+          {
+            "id": 1,
+            "icon": "icon-cashback",
+            "title": "Ven a los lugares turisticos",
+            "text": "Disfruta de las playas y atracciones que San Carlos tiene para ti."
+          },
+          {
+            "id": 2,
+            "icon": "icon-booking",
+            "title": "Informate de los eventos",
+            "text": "Busca los eventos que se realizan en San Carlos y disfruta de ellos."
+          },
+          {
+            "id": 3,
+            "icon": "icon-travel",
+            "title": "Conoce los negocios locales",
+            "text": "Informate de los negocios locales y los servicios que se ofrecen en San Carlos."
+          }
+        ]
+      },
+      "about": {
+        "about": {
+          "src": "https://www.elsoldemexico.com.mx/incoming/2awenv-son-san-carlos.jpg/ALTERNATES/LANDSCAPE_1140/SON-SAN-CARLOS.jpg",
+          "alt": ""
+        },
+        "phone": "666-888-0000",
+        "tagline": "Ven y conoce",
+        "title": "Planea tu viaje a San Carlos, Sonora",
+        "destination": "San Carlos Sonora es uno de los destinos turísticos más hermosos y fascinantes de México, que cuenta con una amplia variedad de actividades para disfrutar y lugares para explorar. Si estás buscando un lugar para escapar de la rutina diaria, relajarte y disfrutar del mar y la naturaleza, San Carlos es el lugar perfecto para ti.",
+        "points": [
+          "Playas hermosas para disfrutar de actividades acuaticas.",
+          "Una impresionante diversidad natural.",
+          "Una rica cultura local."
+        ],
+        "button": {
+          "text": "Ver mas",
+          "link": "/lugares-turisticos"
+        }
+      },
+      "list_inline": {
+        "title": "Lugares turisticos mas populares",
+        "subtitle": "Lo que San Carlos te ofrece",
+        "items": [
+          {
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Vistasancarlos-1-.jpg/1200px-Vistasancarlos-1-.jpg",
+            "title": "National Park 2 Days Tour",
+            "superb": "8.0",
+            "rate": "1870",
+            "meta": [
+              "3 Days",
+              "12+",
+              "Los Angeles"
+            ]
+          },
+          {
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Vistasancarlos-1-.jpg/1200px-Vistasancarlos-1-.jpg",
+            "title": "Dark Forest Adventure",
+            "superb": "8.0",
+            "rate": "1870",
+            "meta": [
+              "3 Days",
+              "12+",
+              "Los Angeles"
+            ]
+          },
+          {
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Vistasancarlos-1-.jpg/1200px-Vistasancarlos-1-.jpg",
+            "title": "Discover Depth of Beach",
+            "superb": "8.0",
+            "rate": "1870",
+            "meta": [
+              "3 Days",
+              "12+",
+              "Los Angeles"
+            ]
+          },
+          {
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Vistasancarlos-1-.jpg/1200px-Vistasancarlos-1-.jpg",
+            "title": "Moscow Red City Land",
+            "superb": "8.0",
+            "rate": "1870",
+            "meta": [
+              "3 Days",
+              "12+",
+              "Los Angeles"
+            ]
+          },
+          {
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Vistasancarlos-1-.jpg/1200px-Vistasancarlos-1-.jpg",
+            "title": "Magic of Italy Tours",
+            "superb": "8.0",
+            "rate": "1870",
+            "meta": [
+              "3 Days",
+              "12+",
+              "Los Angeles"
+            ]
+          },
+          {
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Vistasancarlos-1-.jpg/1200px-Vistasancarlos-1-.jpg",
+            "title": "National Park 2 Days Tour",
+            "superb": "8.0",
+            "rate": "1870",
+            "meta": [
+              "3 Days",
+              "12+",
+              "Los Angeles"
+            ]
+          },
+          {
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Vistasancarlos-1-.jpg/1200px-Vistasancarlos-1-.jpg",
+            "title": "Discover Depth of Beach",
+            "superb": "8.0",
+            "rate": "1870",
+            "meta": [
+              "3 Days",
+              "12+",
+              "Los Angeles"
+            ]
+          },
+          {
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Vistasancarlos-1-.jpg/1200px-Vistasancarlos-1-.jpg",
+            "title": "National Park 2 Days Tour",
+            "superb": "8.0",
+            "rate": "1870",
+            "meta": [
+              "3 Days",
+              "12+",
+              "Los Angeles"
+            ]
+          },
+          {
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Vistasancarlos-1-.jpg/1200px-Vistasancarlos-1-.jpg",
+            "title": "National Park 2 Days Tour",
+            "superb": "8.0",
+            "rate": "1870",
+            "meta": [
+              "3 Days",
+              "12+",
+              "Los Angeles"
+            ]
+          },
+          {
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Vistasancarlos-1-.jpg/1200px-Vistasancarlos-1-.jpg",
+            "title": "National Park 2 Days Tour",
+            "superb": "8.0",
+            "rate": "1870",
+            "meta": [
+              "3 Days",
+              "12+",
+              "Los Angeles"
+            ]
+          },
+          {
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Vistasancarlos-1-.jpg/1200px-Vistasancarlos-1-.jpg",
+            "title": "National Park 2 Days Tour",
+            "superb": "8.0",
+            "rate": "1870",
+            "meta": [
+              "3 Days",
+              "12+",
+              "Los Angeles"
+            ]
+          },
+          {
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Vistasancarlos-1-.jpg/1200px-Vistasancarlos-1-.jpg",
+            "title": "National Park 2 Days Tour",
+            "superb": "8.0",
+            "rate": "1870",
+            "meta": [
+              "3 Days",
+              "12+",
+              "Los Angeles"
+            ]
+          }
+        ]
+      },
+      "touristic_places_list": {
+        "bg": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwiki-random.fandom.com%2Fes%2Fwiki%2FPou&psig=AOvVaw3MCcQBCInkuoeNRS4Ytcq8&ust=1679273487838000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCLi6_7Hj5v0CFQAAAAAdAAAAABAD",
+        "tagline": "Descubre los lugares turisticos de San Carlos",
+        "title": "Elige que tipo de lugar turistico buscas",
+        "lists": [
+          {
+            "icon": "icon-deer",
+            "title": "Wildlife"
+          },
+          {
+            "icon": "icon-paragliding",
+            "title": "Paragliding"
+          },
+          {
+            "icon": "icon-flag",
+            "title": "Adventure"
+          },
+          {
+            "icon": "icon-hang-gliding",
+            "title": "Hang Gliding"
+          },
+          {
+            "icon": "icon-booking",
+            "title": "Sightseeing"
+          }
+        ]
+      },
+      "statistics": {
+        "bg": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwiki-random.fandom.com%2Fes%2Fwiki%2FPou&psig=AOvVaw3MCcQBCInkuoeNRS4Ytcq8&ust=1679273487838000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCLi6_7Hj5v0CFQAAAAAdAAAAABAD",
+        "tagline": "Are you ready to travel?",
+        "title": "Tevily is a World Leading \n Online Tour Booking Platform",
+        "counter": {
+          "items": [
+            {
+              "text": "Total Donations",
+              "count": "54"
+            },
+            {
+              "text": "Campaigns Closed",
+              "count": "12"
+            },
+            {
+              "text": "Happy People",
+              "count": "23"
+            },
+            {
+              "text": "Our Volunteers",
+              "count": "45"
+            }
+          ]
+        }
+      },
+      "category_list": {
+        "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwiki-random.fandom.com%2Fes%2Fwiki%2FPou&psig=AOvVaw3MCcQBCInkuoeNRS4Ytcq8&ust=1679273487838000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCLi6_7Hj5v0CFQAAAAAdAAAAABAD",
+        "tagline": "Our destination lists",
+        "title": "Checkout Beautiful Places Arround the World",
+        "categories": [
+          {
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Vistasancarlos-1-.jpg/1200px-Vistasancarlos-1-.jpg",
+            "title": "Spain"
+          },
+          {
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Vistasancarlos-1-.jpg/1200px-Vistasancarlos-1-.jpg",
+            "subtitle": "New",
+            "title": "Africa"
+          },
+          {
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Vistasancarlos-1-.jpg/1200px-Vistasancarlos-1-.jpg",
+            "title": "Europe"
+          },
+          {
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Vistasancarlos-1-.jpg/1200px-Vistasancarlos-1-.jpg",
+            "subtitle": "Wildlife",
+            "title": "Thailand"
+          },
+          {
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Vistasancarlos-1-.jpg/1200px-Vistasancarlos-1-.jpg",
+            "title": "Dubai"
+          }
+        ],
+        "off": "30%"
+      },
+      "post_list": {
+        "tagline": "From the blog post",
+        "title": "News & Articles",
+        "newsData": [
+          {
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Vistasancarlos-1-.jpg/1200px-Vistasancarlos-1-.jpg",
+            "date": "28 Aug",
+            "author": "Admin",
+            "comments": "2",
+            "title": "Things to See and Do When Visiting Japan"
+          },
+          {
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Vistasancarlos-1-.jpg/1200px-Vistasancarlos-1-.jpg",
+            "date": "28 Aug",
+            "author": "Admin",
+            "comments": "2",
+            "title": "Journeys are Best Measured in New Friends"
+          },
+          {
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Vistasancarlos-1-.jpg/1200px-Vistasancarlos-1-.jpg",
+            "date": "28 Aug",
+            "author": "Admin",
+            "comments": "2",
+            "title": "Travel the Most Beautiful Places in the World"
+          }
+        ]
+      },
+      "testimonial": {
+        "bg": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwiki-random.fandom.com%2Fes%2Fwiki%2FPou&psig=AOvVaw3MCcQBCInkuoeNRS4Ytcq8&ust=1679273487838000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCLi6_7Hj5v0CFQAAAAAdAAAAABAD",
+        "shape1": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwiki-random.fandom.com%2Fes%2Fwiki%2FPou&psig=AOvVaw3MCcQBCInkuoeNRS4Ytcq8&ust=1679273487838000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCLi6_7Hj5v0CFQAAAAAdAAAAABAD",
+        "shape2": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwiki-random.fandom.com%2Fes%2Fwiki%2FPou&psig=AOvVaw3MCcQBCInkuoeNRS4Ytcq8&ust=1679273487838000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCLi6_7Hj5v0CFQAAAAAdAAAAABAD",
+        "tagline": "Testimonials & reviews",
+        "title": "What They’re Saying",
+        "testimonials": [
+          {
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Vistasancarlos-1-.jpg/1200px-Vistasancarlos-1-.jpg",
+            "review": "5",
+            "description":
+              "This is due to their best service, pricing and customer support. It’s throughly refresing to such a personal touch. Duis aute irure lupsum reprehenderit.",
+            "client": {
+              "name": "Shirley Smith",
+              "role": "Customer"
+            }
+          },
+          {
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Vistasancarlos-1-.jpg/1200px-Vistasancarlos-1-.jpg",
+            "review": "5",
+            "description":
+              "This is due to their best service, pricing and customer support. It’s throughly refresing to such a personal touch. Duis aute irure lupsum reprehenderit.",
+            "client": {
+              "name": "Kevin Martin",
+              "role": "Customer"
+            }
+          },
+          {
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Vistasancarlos-1-.jpg/1200px-Vistasancarlos-1-.jpg",
+            "review": "5",
+            "description":
+              "This is due to their best service, pricing and customer support. It’s throughly refresing to such a personal touch. Duis aute irure lupsum reprehenderit.",
+            "client": {
+              "name": "Jessica Brown",
+              "role": "Customer"
+            }
+          },
+          {
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Vistasancarlos-1-.jpg/1200px-Vistasancarlos-1-.jpg",
+            "review": "5",
+            "description":
+              "This is due to their best service, pricing and customer support. It’s throughly refresing to such a personal touch. Duis aute irure lupsum reprehenderit.",
+            "client": {
+              "name": "Shirley Smith",
+              "role": "Customer"
+            }
+          },
+          {
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Vistasancarlos-1-.jpg/1200px-Vistasancarlos-1-.jpg",
+            "review": "5",
+            "description":
+              "This is due to their best service, pricing and customer support. It’s throughly refresing to such a personal touch. Duis aute irure lupsum reprehenderit.",
+            "client": {
+              "name": "Kevin Martin",
+              "role": "Customer"
+            }
+          },
+          {
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Vistasancarlos-1-.jpg/1200px-Vistasancarlos-1-.jpg",
+            "review": "5",
+            "description":
+              "This is due to their best service, pricing and customer support. It’s throughly refresing to such a personal touch. Duis aute irure lupsum reprehenderit.",
+            "client": {
+              "name": "Jessica Brown",
+              "role": "Customer"
+            }
+          },
+          {
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Vistasancarlos-1-.jpg/1200px-Vistasancarlos-1-.jpg",
+            "review": "5",
+            "description":
+              "This is due to their best service, pricing and customer support. It’s throughly refresing to such a personal touch. Duis aute irure lupsum reprehenderit.",
+            "client": {
+              "name": "Shirley Smith",
+              "role": "Customer"
+            }
+          },
+          {
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Vistasancarlos-1-.jpg/1200px-Vistasancarlos-1-.jpg",
+            "review": "5",
+            "description":
+              "This is due to their best service, pricing and customer support. It’s throughly refresing to such a personal touch. Duis aute irure lupsum reprehenderit.",
+            "client": {
+              "name": "Kevin Martin",
+              "role": "Customer"
+            }
+          },
+          {
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Vistasancarlos-1-.jpg/1200px-Vistasancarlos-1-.jpg",
+            "review": "5",
+            "description":
+              "This is due to their best service, pricing and customer support. It’s throughly refresing to such a personal touch. Duis aute irure lupsum reprehenderit.",
+            "client": {
+              "name": "Jessica Brown",
+              "role": "Customer"
+            }
+          }
+        ]
       }
     }
   }
