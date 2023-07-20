@@ -45,12 +45,6 @@
         "id": 3,
         "name": "Negocios locales",
         "subNavItems": []
-      },
-      {
-        "href": "/articulos",
-        "id": 4,
-        "name": "Articulos",
-        "subNavItems": []
       }
     ]
   },
@@ -259,26 +253,26 @@
         "title": "Algunos de los negocios locales mas populares",
         "categories": [
           {
-            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Vistasancarlos-1-.jpg/1200px-Vistasancarlos-1-.jpg",
-            "title": "Spain"
+            "image": "https://directory.whatsupsancarlos.com/wp-content/uploads/2013/11/Tortugas-food-8.jpg",
+            "title": "Tortugas Bar & Bristo"
           },
           {
-            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Vistasancarlos-1-.jpg/1200px-Vistasancarlos-1-.jpg",
-            "subtitle": "New",
-            "title": "Africa"
+            "image": "https://directory.whatsupsancarlos.com/wp-content/uploads/Hammerheads-new-hours.jpg",
+            "subtitle": "",
+            "title": "HammerHead's"
           },
           {
-            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Vistasancarlos-1-.jpg/1200px-Vistasancarlos-1-.jpg",
-            "title": "Europe"
+            "image": "https://media-cdn.tripadvisor.com/media/photo-s/12/35/c1/58/img-20180214-184059-largejpg.jpg",
+            "title": "Chihuahua's"
           },
           {
-            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Vistasancarlos-1-.jpg/1200px-Vistasancarlos-1-.jpg",
-            "subtitle": "Wildlife",
-            "title": "Thailand"
+            "image": "https://lh5.googleusercontent.com/p/AF1QipNyxegKv1GsTG0HknNbdi-WaW_-xLW0q4KAwxeX=w408-h267-k-no",
+            "subtitle": "",
+            "title": "Coralito"
           },
           {
-            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Vistasancarlos-1-.jpg/1200px-Vistasancarlos-1-.jpg",
-            "title": "Dubai"
+            "image": "https://media-cdn.tripadvisor.com/media/photo-s/0b/ee/dd/1f/photo1jpg.jpg",
+            "title": "Charly's Rock"
           }
         ],
         "off": "30%"
@@ -428,7 +422,7 @@
       },
       "about": {
         "about": {
-          "src": "https://www.elsoldemexico.com.mx/incoming/2awenv-son-san-carlos.jpg/ALTERNATES/LANDSCAPE_1140/SON-SAN-CARLOS.jpg",
+          "src": "https://www.mexicodesconocido.com.mx/wp-content/uploads/2018/05/mirador-de-san-carlos-sonora.jpg",
           "alt": ""
         },
         "cta": {
@@ -551,6 +545,39 @@
       "list": {
         "tagline": "Visita uno de nuestros",
         "title": "Lugares turisticos"
+      },
+      "form": {
+        "fields": [
+          {
+            "type": "text",
+            "name": "title",
+            "label": "Nombre del lugar",
+            "placeholder": "Nombre",
+            "required": true
+          },
+          {
+            "type": "file",
+            "name": "imagen",
+            "label": "Imagen del lugar",
+            "placeholder": "",
+            "required": true
+          },
+          {
+            "type": "textarea",
+            "label": "Descripcion del lugar",
+            "name": "description",
+            "placeholder": "",
+            "required": true
+
+          },
+          {
+            "type": "text",
+            "name": "locacion",
+            "label": "Locacion del lugar",
+            "placeholder": "",
+            "required": false
+          }
+        ]
       }
     },
     "events": {
@@ -567,21 +594,21 @@
       },
       "about": {
         "about": {
-          "src": "https://www.elsoldemexico.com.mx/incoming/2awenv-son-san-carlos.jpg/ALTERNATES/LANDSCAPE_1140/SON-SAN-CARLOS.jpg",
+          "src": "https://www.lugaresturisticosenmexico.com/wp-content/uploads/2022/05/San-Carlos-Nuevo-Guaymas-Sonora-Marina.jpeg",
           "alt": ""
         },
         "cta": {
-          "text": "Busca un hospedaje",
-          "subText": "Reserva aqui",
+          "text": "Buscas promocionar tu evento?",
+          "subText": "Contacta aqui",
           "link": "https://www.booking.com/hotel/mx/visita-sancarlos.es.html"
         },
-        "tagline": "Ven y conoce",
-        "title": "Planea tu viaje a San Carlos, Sonora",
-        "destination": "San Carlos Sonora es uno de los destinos turísticos más hermosos y fascinantes de México, que cuenta con una amplia variedad de actividades para disfrutar y lugares para explorar. Si estás buscando un lugar para escapar de la rutina diaria, relajarte y disfrutar del mar y la naturaleza, San Carlos es el lugar perfecto para ti.",
+        "tagline": "Ven y diviertete",
+        "title": "Asiste a los mejores eventos en San Carlos, Sonora",
+        "destination": "Además de su entorno idílico, San Carlos también se destaca por la amplia variedad de eventos emocionantes que se llevan a cabo a lo largo del año. Ya sea que te guste la música, los deportes acuáticos, la gastronomía o simplemente sumergirte en la cultura local, siempre encontrarás algo interesante que hacer durante tu visita.",
         "points": [
-          "disfruta de actividades acuaticas.",
-          "Una impresionante diversidad natural.",
-          "Una rica cultura local."
+          "Experiencia llena de diversión y entretenimiento.",
+          "Exhibiciones de arte local y danzas folklóricas.",
+          "Actividades como el buceo, el snorkel, el kayak y la pesca deportiva."
         ],
         "button": {
           "text": "Ver mas",
@@ -766,21 +793,21 @@
       },
       "about": {
         "about": {
-          "src": "https://www.elsoldemexico.com.mx/incoming/2awenv-son-san-carlos.jpg/ALTERNATES/LANDSCAPE_1140/SON-SAN-CARLOS.jpg",
+          "src": "https://www.elsoldehermosillo.com.mx/policiaca/rfawcu-la-propietaria-de-un-restaurante-fue-asesinada-en-san-carlos/ALTERNATES/LANDSCAPE_960/La%20propietaria%20de%20un%20restaurante%20fue%20asesinada%20en%20San%20Carlos",
           "alt": ""
         },
         "cta": {
-          "text": "Busca un hospedaje",
-          "subText": "Reserva aqui",
+          "text": "Publica un negocio",
+          "subText": "Contacta aqui",
           "link": "https://www.booking.com/hotel/mx/visita-sancarlos.es.html"
         },
-        "tagline": "Ven y conoce",
-        "title": "Planea tu viaje a San Carlos, Sonora",
-        "destination": "San Carlos Sonora es uno de los destinos turísticos más hermosos y fascinantes de México, que cuenta con una amplia variedad de actividades para disfrutar y lugares para explorar. Si estás buscando un lugar para escapar de la rutina diaria, relajarte y disfrutar del mar y la naturaleza, San Carlos es el lugar perfecto para ti.",
+        "tagline": "Ven y disgusta",
+        "title": "Conoce todos los negocios de San Carlos, Sonora",
+        "destination": "San Carlos, Sonora, es conocido por su hermoso entorno natural y su floreciente comunidad de negocios locales. Esta encantadora localidad costera alberga una gran variedad de establecimientos que ofrecen productos y servicios únicos, brindando a los residentes y visitantes una experiencia auténtica y satisfactoria.",
         "points": [
-          "disfruta de actividades acuaticas.",
-          "Una impresionante diversidad natural.",
-          "Una rica cultura local."
+          "Deliciosos mariscos frescos.",
+          "Desde artesanías tradicionales y ropa de playa, joyería y accesorios.",
+          "Variedad de servicios locales."
         ],
         "button": {
           "text": "Ver mas",
@@ -850,6 +877,87 @@
             "facebook": "/",
             "instagram": "/",
             "website": "/"
+          }
+        ]
+      },
+      "form": {
+        "fields": [
+          {
+            "type": "text",
+            "name": "nombre_negocio",
+            "label": "Nombre del negocio",
+            "placeholder": "",
+            "required": true
+          },
+          {
+            "type": "file",
+            "name": "logo_negocio",
+            "label": "Logo de negocio",
+            "placeholder": "",
+            "required": true
+          },
+          {
+            "type": "file",
+            "name": "featured_image",
+            "label": "Banner de negocio",
+            "placeholder": "",
+            "required": true
+          },
+          {
+            "type": "text",
+            "name": "location",
+            "label": "Direccion",
+            "placeholder": "",
+            "required": false
+          },
+          {
+            "type": "textarea",
+            "name": "description",
+            "label": "Descripcion",
+            "placeholder": "",
+            "required": true
+          },
+          {
+            "type": "text",
+            "name": "Nombre del contacto",
+            "label": "Ingresar nombre del contacto",
+            "placeholder": "",
+            "required": true
+          },
+          {
+            "type": "tel",
+            "name": "Telefono del contacto",
+            "label": "Ingresar telefono del contacto",
+            "placeholder": "",
+            "required": true
+          },
+          {
+            "type": "email",
+            "name": "Correo del contacto",
+            "label": "Ingresar correo del contacto",
+            "placeholder": "",
+            "required": true
+          },
+          {
+            "type": "url",
+            "name": "Sitio web del contacto",
+            "label": "Ingresar sitio web del contacto",
+            "placeholder": "",
+            "required": false
+          },
+          {
+            "type": "url",
+            "name": "Facebook del contacto",
+            "label": "Ingresar facebook del contacto",
+            "placeholder": "",
+            "required": false
+          },
+          {
+            "type": "url",
+            "name": "Instagram del contacto",
+            "label": "Ingresar instagram del contacto",
+            "placeholder": "",
+            "required": false
           }
         ]
       }

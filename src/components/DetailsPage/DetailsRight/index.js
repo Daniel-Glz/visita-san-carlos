@@ -6,28 +6,28 @@ const {
   lists,
   discount: { image, percent, title: discountTitle },
 } = {
-  title: "Last Minute Deals",
+  title: "Tambien te puede interesar",
   lists: [
     {
       id: 1,
       image: "destinations-details-1-1.jpg",
       price: 1200,
-      title: "Paris, France",
-      subtitle: "7 Days Tour",
+      title: "Bahia delfin, San Carlos",
+      subtitle: "Lorem ipsum",
     },
     {
       id: 2,
       image: "destinations-details-1-2.jpg",
       price: 1200,
-      title: "Paris, France",
-      subtitle: "7 Days Tour",
+      title: "Lorem ipsum dolor",
+      subtitle: "sit amet",
     },
     {
       id: 3,
       image: "destinations-details-1-3.jpg",
       price: 1200,
-      title: "Paris, France",
-      subtitle: "7 Days Tour",
+      title: "consectetur adipiscing",
+      subtitle: "elit, sed do eiusmod",
     }
   ],
   discount: {

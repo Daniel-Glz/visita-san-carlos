@@ -7,14 +7,14 @@ const FormSection = ({ fields, action }) => {
 
   return (
     <div className="form-section">
-      <form action={action} className="form-section__form">
       <Container>
+      <form action={action} className="form-section__form">
         {fields.map((field, index) => (
           <FieldHandler key={index} field={field} />
         ))}
         <input type="submit" value="Enviar" className="thm-btn form-section__btn-submit" />
-      </Container>
       </form>
+      </Container>
     </div>
   );
 };

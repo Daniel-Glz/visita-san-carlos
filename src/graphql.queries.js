@@ -208,8 +208,7 @@ export const GET_ARTICLES_TEASER = gql`
       nodes {
         title
         slug
-        date
-
+        excerpt
       }
       pageInfo {
         endCursor

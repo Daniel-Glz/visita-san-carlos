@@ -43,7 +43,6 @@ const List = ({ type, query, staticData }) => {
             <span className="section-title__tagline">{tagline}</span>
             <h2 className="section-title__title">{title}</h2>
           </div>
-          <CategoryFilter data={data} />
           <Row>
             {cards.map((card, index) => (
               <Col
