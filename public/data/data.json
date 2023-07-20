@@ -1,0 +1,94 @@
+{
+  "header": {
+    "cta": {
+      "href": "https://www.booking.com/hotel/mx/visita-sancarlos.es.html",
+      "text": "Registra tu negocio"
+    },
+    "icons":[
+      {
+        "content": "contacto@visitasancarlos.com.mx",
+        "icon": "icon-at",
+        "id": 1,
+        "subHref": "mailto"
+      }
+    ],
+    "logo": {
+      "alt": "Visita San Carlos",
+      "src": "https://www.booking.com/hotel/mx/visita-sancarlos.es.html"
+    },
+    "nav_items": [
+      {
+        "href": "/",
+        "id": 1,
+        "name": "Inicio",
+        "subNavItems": [
+        ]
+      },
+      {
+        "href": "/lugares-turisticos",
+        "id": 5,
+        "name": "Lugares turisticos",
+        "subNavItems": []
+      },
+      {
+        "href": "/eventos",
+        "id": 2,
+        "name": "Eventos",
+        "subNavItems": []
+      },
+      {
+        "href": "/negocios",
+        "id": 3,
+        "name": "Negocios locales",
+        "subNavItems": []
+      },
+      {
+        "href": "/articulos",
+        "id": 4,
+        "name": "Articulos",
+        "subNavItems": []
+      }
+    ]
+  },
+  "footer": {
+    "about": "Welcome to our Trip and Tour Agency. Lorem simply text amet cing elit.",
+    "author": "Lorem ipsum dolor",
+    "companies": [
+      {
+        "id": 1,
+        "link": "https://www.booking.com/hotel/mx/visita-sancarlos.es.html",
+        "title": "Visita San Carlos"
+      }
+    ],
+    "explore": [
+      {
+        "id": 1,
+        "link": "/",
+        "title": "Inicio"
+      }
+    ],
+    "icons": [
+      {
+        "id": 1,
+        "icon": "fas fa-phone-square-alt",
+        "content": "+ 92 666 999 0000",
+        "subHref": "tel"
+      },
+      {
+        "id": 2,
+        "icon": "fas fa-envelope",
+        "content": "needhelp@company.com",
+        "subHref": "mailto"
+      },
+      {
+        "id": 3,
+        "icon": "fas fa-map-marker-alt",
+        "content": "666 road, broklyn street new york"
+      }
+    ],
+    "logo": {
+      "alt": "Visita San Carlos",
+      "src": "https://www.booking.com/hotel/mx/visita-sancarlos.es.html"
+    }
+  }
+}
