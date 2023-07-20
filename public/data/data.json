@@ -90,5 +90,15 @@
       "alt": "Visita San Carlos",
       "src": "https://www.booking.com/hotel/mx/visita-sancarlos.es.html"
     }
+  },
+  "pages": {
+    "home": {
+      "banner": {
+        "bottomText": "Disfruta de las bellas playas de San Carlos, Sonora",
+        "slides": ["https://www.elsoldemexico.com.mx/incoming/2awenv-son-san-carlos.jpg/ALTERNATES/LANDSCAPE_1140/SON-SAN-CARLOS.jpg"],
+        "sub_title": "Visita nuesto hermoso pueblo",
+        "title": "San Carlos, Sonora"
+      }
+    }
   }
 }

@@ -1,12 +1,12 @@
-import Header from "@/components/Header";
-import Preloader from "@/components/Preloader";
-import { useRootContext } from "@/context/context";
-import Head from "next/head";
 import React, { useEffect, useState } from "react";
-import MobileMenu from "@/components/MobileMenu";
-import Search from "@/components/Search";
-import Footer from "@/components/Footer";
 import PropTypes from "prop-types";
+import { useRootContext } from "@/context/context";
+import Footer from "@/components/Footer";
+import Head from "next/head";
+import Header from "@/components/Header";
+import MobileMenu from "@/components/MobileMenu";
+import Preloader from "@/components/Preloader";
+import Search from "@/components/Search";
 
 const Layout = ({ children, isHome, pageTitle, data }) => {
   const [loading, setLoading] = useState(true);
