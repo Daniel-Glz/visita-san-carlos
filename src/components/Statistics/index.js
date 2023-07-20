@@ -1,11 +1,10 @@
-import React, { Fragment, useState } from "react";
+import React, { Fragment } from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import Counter from "@/components/Counter";
 import PropTypes from "prop-types";
 
 const Statistics = ({ data }) => {
   const { bg, tagline, title, counter } = data;
-  const [isOpen, setOpen] = useState(false);
 
   return (
     <>

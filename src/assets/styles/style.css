@@ -436,16 +436,15 @@ ul {
 }
 
 .main-menu-wrapper__left {
-  display: block;
-  float: left;
+  display: flex;
+  justify-content: space-between;
   position: relative;
 }
 
 .main-menu-wrapper__logo {
   float: left;
   margin-right: 150px;
-  padding-bottom: 31.5px;
-  padding-top: 32px;
+  padding: 22px 0px 22px 0px;
   position: relative;
 }
 
@@ -1564,10 +1563,12 @@ ul {
 # Banner Two
 --------------------------------------------------------------*/
 .banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background-color: var(--thm-black);
   overflow: hidden;
-  padding-bottom: 126px;
-  padding-top: 334px;
+  height: calc(100vh - 80px);
   position: relative;
   z-index: 1;
 }
@@ -1588,7 +1589,7 @@ ul {
 }
 
 .banner-bg-slide-overly {
-  background-color: rgba(var(--thm-black-rgb), 0.4);
+  background-color: rgba(var(--thm-black-rgb), 0.7);
   bottom: 0;
   content: "";
   left: 0;
@@ -1613,10 +1614,10 @@ ul {
 .banner__sub-title {
   color: var(--thm-primary);
   font-family: var(--thm-reey-font);
-  font-size: 60px;
   line-height: 60px;
   margin: 0;
-  padding-left: 231px;
+  text-align: center;
+  font-size: 35px;
 }
 
 .banner__title {
@@ -4076,7 +4077,6 @@ ul {
 }
 
 @media (min-width: 992px) {
-
   .destinations-two__top-banner {
     padding-left: 50px;
     padding-right: 0;

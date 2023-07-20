@@ -14,8 +14,9 @@
     ],
     "logo": {
       "alt": "Visita San Carlos",
-      "src": "https://www.booking.com/hotel/mx/visita-sancarlos.es.html"
+      "src": "/logo-2.png"
     },
+    "social": [],
     "nav_items": [
       {
         "href": "/",
@@ -92,10 +93,13 @@
   },
   "pages": {
     "home": {
+      "meta": {
+        "title": "Inicio"
+      },
       "banner": {
         "bottomText": "Disfruta de las bellas playas de San Carlos, Sonora",
         "slides": [
-          "https://www.elsoldemexico.com.mx/incoming/2awenv-son-san-carlos.jpg/ALTERNATES/LANDSCAPE_1140/SON-SAN-CARLOS.jpg"
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Vistasancarlos-1-.jpg/1200px-Vistasancarlos-1-.jpg"
         ],
         "sub_title": "Visita nuesto hermoso pueblo",
         "title": "San Carlos, Sonora"
@@ -127,12 +131,16 @@
           "src": "https://www.elsoldemexico.com.mx/incoming/2awenv-son-san-carlos.jpg/ALTERNATES/LANDSCAPE_1140/SON-SAN-CARLOS.jpg",
           "alt": ""
         },
-        "phone": "666-888-0000",
+        "cta": {
+          "text": "Busca un hospedaje",
+          "subText": "Reserva aqui",
+          "link": "https://www.booking.com/hotel/mx/visita-sancarlos.es.html"
+        },
         "tagline": "Ven y conoce",
         "title": "Planea tu viaje a San Carlos, Sonora",
         "destination": "San Carlos Sonora es uno de los destinos turísticos más hermosos y fascinantes de México, que cuenta con una amplia variedad de actividades para disfrutar y lugares para explorar. Si estás buscando un lugar para escapar de la rutina diaria, relajarte y disfrutar del mar y la naturaleza, San Carlos es el lugar perfecto para ti.",
         "points": [
-          "Playas hermosas para disfrutar de actividades acuaticas.",
+          "Disfruta de actividades acuaticas en la playa.",
           "Una impresionante diversidad natural.",
           "Una rica cultura local."
         ],
@@ -281,28 +289,28 @@
       },
       "touristic_places_list": {
         "bg": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwiki-random.fandom.com%2Fes%2Fwiki%2FPou&psig=AOvVaw3MCcQBCInkuoeNRS4Ytcq8&ust=1679273487838000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCLi6_7Hj5v0CFQAAAAAdAAAAABAD",
-        "tagline": "Descubre los lugares turisticos de San Carlos",
-        "title": "Elige que tipo de lugar turistico buscas",
+        "tagline": "Descubre San Carlos",
+        "title": "Elige que tipo de negocio / lugar buscas",
         "lists": [
           {
             "icon": "icon-deer",
-            "title": "Wildlife"
+            "title": "Hoteles"
           },
           {
             "icon": "icon-paragliding",
-            "title": "Paragliding"
+            "title": "Restaurantes"
           },
           {
             "icon": "icon-flag",
-            "title": "Adventure"
+            "title": "Servicios altamar"
           },
           {
             "icon": "icon-hang-gliding",
-            "title": "Hang Gliding"
+            "title": "Playas"
           },
           {
             "icon": "icon-booking",
-            "title": "Sightseeing"
+            "title": "Mas categorias"
           }
         ]
       },
@@ -484,6 +492,90 @@
               "name": "Jessica Brown",
               "role": "Customer"
             }
+          }
+        ]
+      }
+    },
+    "touristic": {
+      "meta": {
+        "title": "Lugares turisticos en San Carlos"
+      },
+      "banner": {
+        "title": "Lugares turisticos en San Carlos",
+        "bottomText": "Vive una aventura inolvidable",
+        "sub_title": "Lorem ipsum dolor",
+        "slides": [
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Vistasancarlos-1-.jpg/1200px-Vistasancarlos-1-.jpg"
+        ]
+      },
+      "about": {
+        "about": {
+          "src": "https://www.elsoldemexico.com.mx/incoming/2awenv-son-san-carlos.jpg/ALTERNATES/LANDSCAPE_1140/SON-SAN-CARLOS.jpg",
+          "alt": ""
+        },
+        "cta": {
+          "text": "Busca un hospedaje",
+          "subText": "Reserva aqui",
+          "link": "https://www.booking.com/hotel/mx/visita-sancarlos.es.html"
+        },
+        "tagline": "Ven y conoce",
+        "title": "Planea tu viaje a San Carlos, Sonora",
+        "destination": "San Carlos Sonora es uno de los destinos turísticos más hermosos y fascinantes de México, que cuenta con una amplia variedad de actividades para disfrutar y lugares para explorar. Si estás buscando un lugar para escapar de la rutina diaria, relajarte y disfrutar del mar y la naturaleza, San Carlos es el lugar perfecto para ti.",
+        "points": [
+          "disfruta de actividades acuaticas.",
+          "Una impresionante diversidad natural.",
+          "Una rica cultura local."
+        ],
+        "button": {
+          "text": "Ver mas",
+          "link": "/lugares-turisticos"
+        }
+      },
+      "list": {
+        "tagline": "Visita uno de nuestros",
+        "title": "Lugares turisticos populares",
+        "popularTours": [
+          {
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Vistasancarlos-1-.jpg/1200px-Vistasancarlos-1-.jpg",
+            "title": "National Park 2 Days Tour",
+            "superb": "8.0",
+            "rate": "1870",
+            "meta": ["3 Days", "12+", "Los Angeles"]
+          },
+          {
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Vistasancarlos-1-.jpg/1200px-Vistasancarlos-1-.jpg",
+            "title": "Magic of Italy Tours",
+            "superb": "8.0",
+            "rate": "1870",
+            "meta": ["3 Days", "12+", "Los Angeles"]
+          },
+          {
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Vistasancarlos-1-.jpg/1200px-Vistasancarlos-1-.jpg",
+            "title": "Discover Depth of Beach",
+            "superb": "8.0",
+            "rate": "1870",
+            "meta": ["3 Days", "12+", "Los Angeles"]
+          },
+          {
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Vistasancarlos-1-.jpg/1200px-Vistasancarlos-1-.jpg",
+            "title": "Moscow Red City Land",
+            "superb": "8.0",
+            "rate": "1870",
+            "meta": ["3 Days", "12+", "Los Angeles"]
+          },
+          {
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Vistasancarlos-1-.jpg/1200px-Vistasancarlos-1-.jpg",
+            "title": "Dark Forest Adventure",
+            "superb": "8.0",
+            "rate": "1870",
+            "meta": ["3 Days", "12+", "Los Angeles"]
+          },
+          {
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Vistasancarlos-1-.jpg/1200px-Vistasancarlos-1-.jpg",
+            "title": "Discover Depth of Beach",
+            "superb": "8.0",
+            "rate": "1870",
+            "meta": ["3 Days", "12+", "Los Angeles"]
           }
         ]
       }

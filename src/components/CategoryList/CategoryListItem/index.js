@@ -1,6 +1,7 @@
 import Link from "next/link";
+import Image from "next/image";
 import React from "react";
-import { Col, Image } from "react-bootstrap";
+import { Col } from "react-bootstrap";
 import PropTypes from "prop-types";
 
 const CategoryListItem = ({ destination = {}, col }) => {
@@ -13,6 +14,8 @@ const CategoryListItem = ({ destination = {}, col }) => {
           <Image
             src={image}
             alt=""
+            width={270}
+            height={270}
           />
           <div className="destinations-two__top-content">
             {subtitle && (

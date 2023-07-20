@@ -63,9 +63,9 @@ const Testimonial = ({ data }) => {
           <Col xl={12}>
             <div className="testimonial-one__carousel">
               <TinySlider settings={settings}>
-                {testimonials.map((testimonial) => (
+                {testimonials.map((testimonial, index) => (
                   <TestimonialItem
-                    key={testimonial.id}
+                    key={index}
                     testimonial={testimonial}
                   />
                 ))}

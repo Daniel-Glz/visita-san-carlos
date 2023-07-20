@@ -1,5 +1,5 @@
 import React from "react";
-import { Image } from "react-bootstrap";
+import Image from "next/image";
 
 const TestimonialItem = ({ testimonial }) => {
   const {
@@ -16,6 +16,8 @@ const TestimonialItem = ({ testimonial }) => {
           <Image
             src={image}
             alt=""
+            width={230}
+            height={230}
           />
         </div>
         <div className="testimonail-one__content">

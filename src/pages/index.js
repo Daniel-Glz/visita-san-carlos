@@ -13,6 +13,7 @@ import ListInline from '@/components/ListInline';
 
 export default function Home({ data }) {
   const {
+    meta,
     banner,
     threeIconSection,
     about,
@@ -24,8 +25,11 @@ export default function Home({ data }) {
     testimonial
   } = convertNamingConvention(data.pages.home);
 
+  let { header, footer } = data;
+  header = convertNamingConvention(header);
+  footer = convertNamingConvention(footer);
   return (
-    <Layout data={data} isHome={true} pageTitle="Inicio" >
+    <Layout data={{ header, footer }} isHome={true} pageTitle={meta.title} >
       <Banner data={banner} />
       <ThreeIconSection data={threeIconSection} />
       <About data={about} />

@@ -17,8 +17,8 @@ const TouristicPlacesList = ({ data }) => {
           <h2 className="section-title__title">{title}</h2>
         </div>
         <ul className="list-unstyled tour-types_list">
-          {lists.map(({ id, icon, title }) => (
-            <li key={id} className="tour-types__single animated fadeInUp">
+          {lists.map(({ icon, title }, index) => (
+            <li key={index} className="tour-types__single animated fadeInUp">
               <div className="tour-types__content">
                 <div className="tour-types__icon">
                   <span className={icon}></span>

@@ -1,6 +1,7 @@
 import React from "react";
-import { Col, Container, Image, Row } from "react-bootstrap";
+import { Col, Container, Row } from "react-bootstrap";
 import Link from "next/link";
+import Image from "next/image";
 import PropTypes from "prop-types";
 import shape1 from "@/assets/images/shapes/about-one-shape-1.png";
 import shape2 from "@/assets/images/shapes/about-one-shape-2.png";
@@ -8,7 +9,7 @@ import shape2 from "@/assets/images/shapes/about-one-shape-2.png";
 const About = ({ data }) => {
   const {
     about,
-    phone,
+    cta,
     tagline,
     title,
     destination,
@@ -19,10 +20,10 @@ const About = ({ data }) => {
   return (
     <section className="about-one">
       <div className="about-one-shape-1 animated slideInLeft">
-        <Image src={shape1.src} alt="" />
+        <Image src={shape1.src} alt="" width={60} height={30} />
       </div>
       <div className="about-one-shape-2 float-bob-y">
-        <Image src={shape2.src} alt="" />
+        <Image src={shape2.src} alt="" width={300} height={185} />
       </div>
       <Container>
         <Row>
@@ -30,16 +31,16 @@ const About = ({ data }) => {
             <div className="about-one__left">
               <div className="about-one__img-box">
                 <div className="about-one__img">
-                  <Image src={about.src} alt="" />
+                  <Image src={about.src} alt="" width={625} height={580}/>
                 </div>
                 <div className="about-one__call">
                   <div className="about-one__call-icon">
                     <span className="icon-phone-call"></span>
                   </div>
                   <div className="about-one__call-number">
-                    <p>Book Tour Now</p>
+                    <p>{cta.subText}</p>
                     <h4>
-                      <Link href={`tel:${phone}`}>{phone}</Link>
+                      <Link href={cta.link}>{cta.text}</Link>
                     </h4>
                   </div>
                 </div>

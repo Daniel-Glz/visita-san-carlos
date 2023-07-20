@@ -9,8 +9,8 @@ const Counter = ({ data }) => {
     <div className="counter-one">
       <div className="counter-one__container">
         <ul className="list-unstyled counters-one__box">
-          {items.map(({ id, text, count }) => (
-            <li key={id} className="counter-one__single animated fadeInUp">
+          {items.map(({ text, count }, index) => (
+            <li key={index} className="counter-one__single animated fadeInUp">
               <h3 className="odometer">
                 <VisibilityCountUp count={count} />
               </h3>

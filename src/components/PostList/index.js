@@ -31,8 +31,8 @@ const PostList = ({ data }) => {
         </div>
         <div className="news-one__bottom">
           <Row>
-            {newsData.map((news) => (
-              <Col xl={4} lg={4} key={news.id} className="animated fadeInUp">
+            {newsData.map((news, index) => (
+              <Col xl={4} lg={4} key={index} className="animated fadeInUp">
                 <PostListItem news={news} />
               </Col>
             ))}

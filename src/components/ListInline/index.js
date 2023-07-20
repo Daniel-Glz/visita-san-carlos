@@ -47,9 +47,9 @@ const ListInline = ({ data }) => {
         <Row>
           <Col xl={12}>
             <div className="popular-tours__carousel">
-              <TinySlider className={"hola"} settings={settings}>
-                {items.map((item) => (
-                  <SingleTour key={item.id} tour={item} />
+              <TinySlider settings={settings}>
+                {items.map((item, index) => (
+                  <SingleTour key={index} tour={item} />
                 ))}
               </TinySlider>
             </div>

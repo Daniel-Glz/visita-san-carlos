@@ -20,8 +20,7 @@ const NavItem = ({ item = {} }) => {
 
   return (
     <li className={classNames("dropdown", {"current": pathname === href})}>
-      <Link href={href}>
-        <a className={expand ? " expanded" : ""}>
+      <Link href={href} className={expand ? " expanded" : ""}>
           {name}
           <button
             onClick={handleExpand}
@@ -30,7 +29,6 @@ const NavItem = ({ item = {} }) => {
           >
             <i className="fa fa-angle-down"></i>
           </button>
-        </a>
       </Link>
       <ul
         style={{

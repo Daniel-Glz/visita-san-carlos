@@ -32,7 +32,7 @@ const Layout = ({ children, isHome, pageTitle, data }) => {
         {children}
         <Footer data={data.footer} />
       </main>
-      {menuStatus && <MobileMenu />}
+      {menuStatus && <MobileMenu data={data.header} />}
       <Search />
     </>
   );

@@ -1,6 +1,6 @@
 import Link from "next/link";
+import Image from "next/image";
 import React, { Fragment } from "react";
-import { Image } from "react-bootstrap";
 import PropTypes from "prop-types";
 
 const PostListItem = ({ news = {}, newsTwo = false }) => {
@@ -14,7 +14,7 @@ const PostListItem = ({ news = {}, newsTwo = false }) => {
       style={{ userSelect: newsTwo ? "none" : "unset" }}
     >
       <div className="news-one__img">
-        <Image src={image} alt="" />
+        <Image src={image} alt="" width={370} height={487} />
         <Link href="/news-details">
             <span className="news-one__plus"></span>
         </Link>

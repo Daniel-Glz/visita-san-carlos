@@ -24,9 +24,9 @@ const CategoryList = ({ data }) => {
             </Col>
             <Col xl={6} lg={6}>
               <Row>
-                {categories.slice(0, 2).map((destination) => (
+                {categories.slice(0, 2).map((destination, index) => (
                   <CategoryListItem
-                    key={destination.id}
+                    key={index}
                     destination={destination}
                     col={6}
                   />
@@ -37,9 +37,9 @@ const CategoryList = ({ data }) => {
         </div>
         <div className="destinations-two__bottom">
           <Row>
-            {categories.slice(2).map((destination) => (
+            {categories.slice(2).map((destination, index) => (
               <CategoryListItem
-                key={destination.id}
+                key={index}
                 destination={destination}
                 col={3}
               />

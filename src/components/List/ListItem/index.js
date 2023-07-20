@@ -1,7 +1,6 @@
 import Link from "next/link";
-import Image from "next/image";
 import React from "react";
-import PropTypes from "prop-types";
+import { Image } from "react-bootstrap";
 
 const SingleTour = ({ tour = {}, userSelect = false }) => {
   const { image, title, meta, rate, superb } = tour;
@@ -16,8 +15,6 @@ const SingleTour = ({ tour = {}, userSelect = false }) => {
           <Image
             src={image}
             alt=""
-            width={370}
-            height={260}
           />
           <div className="popular-tours__icon">
             <Link href="/tour-details">
@@ -46,11 +43,6 @@ const SingleTour = ({ tour = {}, userSelect = false }) => {
       </div>
     </div>
   );
-};
-
-SingleTour.propTypes = {
-  tour: PropTypes.object,
-  userSelect: PropTypes.bool,
 };
 
 export default SingleTour;

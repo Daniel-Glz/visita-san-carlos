@@ -24,7 +24,7 @@ const VisibilityCountUp = ({ count }) => {
 };
 
 VisibilityCountUp.propTypes = {
-  count: PropTypes.number,
+  count: PropTypes.string,
 };
 
 export default VisibilityCountUp;

@@ -8,9 +8,8 @@ import React from "react";
 import useScroll from "@/hooks/useScroll";
 
 const Header = ({ isHome, data }) => {
-  const navItems = data.nav_items;
   const scrollTop = useScroll(130);
-  const { icons, cta, logo } = data;
+  const { icons, cta, logo, navItems } = data;
   const { toggleMenu, toggleSearch } = useRootContext();
 
   return (
@@ -64,7 +63,7 @@ const Header = ({ isHome, data }) => {
         >
           <Container className="clearfix">
             <div className="main-menu-wrapper-inner clearfix">
-              <div className="main-menu-wrapper__left clearfix">
+              <div className="main-menu-wrapper__left">
                 <div className="main-menu-wrapper__logo">
                   <Link href="/" aria-label="Imagen de logo">
                     <Image
@@ -86,12 +85,6 @@ const Header = ({ isHome, data }) => {
                     ))}
                   </ul>
                 </div>
-              </div>
-              <div className="main-menu-wrapper__right">
-                <span
-                  onClick={toggleSearch}
-                  className="main-menu__search search-toggler icon-magnifying-glass"
-                ></span>
               </div>
             </div>
           </Container>
