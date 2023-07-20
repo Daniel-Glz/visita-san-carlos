@@ -421,7 +421,7 @@
       "banner": {
         "title": "Lugares turisticos en San Carlos",
         "bottomText": "Vive una aventura inolvidable",
-        "subtitle": "Conoce y disfruta de los mejores lugares",
+        "subtitle": "Conoce y disfruta de los mejores",
         "slides": [
           "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Vistasancarlos-1-.jpg/1200px-Vistasancarlos-1-.jpg"
         ]
@@ -560,7 +560,7 @@
       "banner": {
         "title": "Eventos en San Carlos",
         "bottomText": "Vive una aventura inolvidable",
-        "subtitle": "Lorem ipsum dolor",
+        "subtitle": "Ven y participa en los",
         "slides": [
           "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Vistasancarlos-1-.jpg/1200px-Vistasancarlos-1-.jpg"
         ]
@@ -641,16 +641,125 @@
             "meta": ["3 Days", "12+", "Los Angeles"]
           }
         ]
+      },
+      "form": {
+        "fields": [
+          {
+            "type": "text",
+            "name": "nombre",
+            "label": "Ingresar nombre del evento",
+            "placeholder": "",
+            "required": true
+          },
+          {
+            "type": "file",
+            "name": "imagen",
+            "label": "Ingresar imagen del evento",
+            "placeholder": "",
+            "required": true
+          },
+          {
+            "type": "textarea",
+            "name": "descripcion",
+            "label": "Ingresar descripcion del evento",
+            "placeholder": "",
+            "required": true
+          },
+          {
+            "type": "text",
+            "name": "organizador",
+            "label": "Ingresar nombre de negocio / organizador del evento",
+            "placeholder": "",
+            "required": true
+          },
+          {
+            "type": "datetime-local",
+            "name": "fecha_inicial",
+            "label": "Ingresar fecha y hora inicial del evento",
+            "placeholder": "",
+            "required": true
+          },
+          {
+            "type": "datetime-local",
+            "name": "fecha_final",
+            "label": "Ingresar fecha y hora final del evento",
+            "placeholder": "",
+            "required": true
+          },
+          {
+            "type": "text",
+            "name": "locacion",
+            "label": "Ingresar locacion del evento",
+            "placeholder": "",
+            "required": true
+          },
+          {
+            "type": "checkbox",
+            "name": "asistencia",
+            "label": "¿La asistencia es gratis?",
+            "placeholder": "",
+            "required": false
+          },
+          {
+            "type": "number",
+            "name": "precio",
+            "label": "Ingresar precio del evento",
+            "placeholder": "",
+            "required": false
+          },
+          {
+            "type": "text",
+            "name": "Nombre del contacto",
+            "label": "Ingresar nombre del contacto",
+            "placeholder": "",
+            "required": true
+          },
+          {
+            "type": "tel",
+            "name": "Telefono del contacto",
+            "label": "Ingresar telefono del contacto",
+            "placeholder": "",
+            "required": true
+          },
+          {
+            "type": "email",
+            "name": "Correo del contacto",
+            "label": "Ingresar correo del contacto",
+            "placeholder": "",
+            "required": true
+          },
+          {
+            "type": "url",
+            "name": "Sitio web del contacto",
+            "label": "Ingresar sitio web del contacto",
+            "placeholder": "",
+            "required": false
+          },
+          {
+            "type": "url",
+            "name": "Facebook del contacto",
+            "label": "Ingresar facebook del contacto",
+            "placeholder": "",
+            "required": false
+          },
+          {
+            "type": "url",
+            "name": "Instagram del contacto",
+            "label": "Ingresar instagram del contacto",
+            "placeholder": "",
+            "required": false
+          }
+        ]
       }
     },
     "business": {
       "meta": {
-        "title": "Directorio de negocios en San Carlos"
+        "title": "Negocios en San Carlos"
       },
       "banner": {
-        "title": "Directorio de negocios en San Carlos",
+        "title": "Negocios en San Carlos",
         "bottomText": "Vive una aventura inolvidable",
-        "subtitle": "Lorem ipsum dolor",
+        "subtitle": "Encuentra todo tipo de",
         "slides": [
           "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Vistasancarlos-1-.jpg/1200px-Vistasancarlos-1-.jpg"
         ]
@@ -752,7 +861,7 @@
       "banner": {
         "title": "Articulos sobre San Carlos",
         "bottomText": "Vive una aventura inolvidable",
-        "subtitle": "Lorem ipsum dolor",
+        "subtitle": "Informate y lee los",
         "slides": [
           "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Vistasancarlos-1-.jpg/1200px-Vistasancarlos-1-.jpg"
         ]

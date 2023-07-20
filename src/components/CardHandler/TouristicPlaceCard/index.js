@@ -1,15 +1,18 @@
 import React from "react";
 import { Image } from "react-bootstrap";
 import Link from "next/link";
+import PropTypes from "prop-types";
 
-const TouristicPlaceCard = (item) => {
-  const { featuredImage, location } = item.content;
-  const { title } = item;
+const TouristicPlaceCard = ({ title, slug, content }) => {
+  const { featuredImage, location } = content;
 
   return (
-    <Link href={`lugares-turisticos/${item.slug}`} className="popular-tours__single">
+    <Link href={`lugares-turisticos/${slug}`} className="popular-tours__single">
       <div className="popular-tours__img touristic-place-card__img">
-        <Image src={featuredImage.sourceUrl} alt={featuredImage.altText} />
+        <Image
+          src={featuredImage.sourceUrl}
+          alt={featuredImage.altText}
+        />
       </div>
       <div className="popular-tours__content touristic-place-card__content">
         <h3 className="popular-tours__title touristic-place-card__title">
@@ -26,5 +29,9 @@ const TouristicPlaceCard = (item) => {
     </Link>
   );
 };
+
+TouristicPlaceCard.propTypes = {
+  item: PropTypes.object
+}
 
 export default TouristicPlaceCard;

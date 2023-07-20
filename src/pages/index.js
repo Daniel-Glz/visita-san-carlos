@@ -27,7 +27,7 @@ export default function Home({ data, staticData }) {
     testimonial
   } = staticData.pages.home;
   const { header, footer } = staticData;
-  const { touristicPlaces, allTotals } = data;
+  const { touristicPlaces, count } = data;
   return (
     <Layout data={{ header, footer }} pageTitle={meta.title} >
       <Banner data={banner} />
@@ -35,7 +35,7 @@ export default function Home({ data, staticData }) {
       <About data={about} />
       <ListInline  staticData={listInline} data={touristicPlaces.nodes} />
       <TouristicPlacesList data={touristicPlacesList} />
-      <Statistics data={{ ...statistics, allTotals }} />
+      <Statistics data={{ ...statistics, count }} />
       <CategoryList data={categoryList} />
       <PostList data={postList} />
       <Testimonial data={testimonial} />
@@ -57,17 +57,30 @@ export async function getStaticProps() {
     query: GET_TOTALS
   });
 
+  const { events, businesses, touristicPlaces, posts } = getAllTotals.data;
 
-  const allTotals = {
-    events: getAllTotals.data.events.nodes.length,
-    businesses: getAllTotals.data.businesses.nodes.length,
-    touristicPlaces: getAllTotals.data.touristicPlaces.nodes.length,
-    posts: getAllTotals.data.posts.nodes.length
-  }
+  const count = [
+    {
+      title: "Eventos",
+      count: events.nodes.length,
+    },
+    {
+      title: "Negocios locales",
+      count: businesses.nodes.length
+    },
+    {
+      title: "Lugares turisticos",
+      count: touristicPlaces.nodes.length
+    },
+    {
+      title: "Articulos",
+      count: posts.nodes.length
+    }
+  ]
 
   data = {
     ...data,
-    allTotals
+    count
   }
 
   const staticData = await getStaticData();

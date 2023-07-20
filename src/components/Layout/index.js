@@ -6,7 +6,6 @@ import Head from "next/head";
 import Header from "@/components/Header";
 import MobileMenu from "@/components/MobileMenu";
 import Preloader from "@/components/Preloader";
-import Search from "@/components/Search";
 import Favicon from "../Favicon";
 
 const Layout = ({ children, pageTitle, data, alternativeVersion }) => {
@@ -35,7 +34,6 @@ const Layout = ({ children, pageTitle, data, alternativeVersion }) => {
         <Footer data={data.footer} />
       </main>
       {menuStatus && <MobileMenu data={data.header} />}
-      <Search />
     </>
   );
 };

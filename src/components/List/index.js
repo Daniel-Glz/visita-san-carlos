@@ -3,6 +3,7 @@ import { useQuery } from "@apollo/client";
 import { Col, Container, Row } from "react-bootstrap";
 import InfiniteScroll from "react-infinite-scroll-component";
 import CardHandler from "../CardHandler";
+import CategoryFilter from "../CategoryFilter";
 import PropTypes from "prop-types";
 
 const List = ({ type, query, staticData }) => {
@@ -42,6 +43,7 @@ const List = ({ type, query, staticData }) => {
             <span className="section-title__tagline">{tagline}</span>
             <h2 className="section-title__title">{title}</h2>
           </div>
+          <CategoryFilter data={data} />
           <Row>
             {cards.map((card, index) => (
               <Col

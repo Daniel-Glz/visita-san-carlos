@@ -69,37 +69,6 @@ const Footer = ({ data }) => {
                 </div>
               </Col>
               <Col xl={4} lg={6} md={6} className="animated fadeInUp">
-                <div className="footer-widget__column footer-widget__newsletter">
-                  <h3 className="footer-widget__title">Newsletter</h3>
-                  <form
-                    className="footer-widget__newsletter-form mc-form"
-                    onSubmit={handleSubmit}
-                  >
-                    <div className="footer-widget__newsletter-input-box">
-                      <input
-                        type="email"
-                        placeholder="Correo Electronico"
-                        name="email"
-                        required
-                      />
-                      <button
-                        type="submit"
-                        className="footer-widget__newsletter-btn"
-                      >
-                        Subscribete
-                      </button>
-                    </div>
-                  </form>
-                  <div className="mc-form__response text-center"></div>
-                  <div className="footer-widget__newsletter-bottom">
-                    <div className="footer-widget__newsletter-bottom-icon">
-                      <i className="fa fa-check"></i>
-                    </div>
-                    <div className="footer-widget__newsletter-bottom-text">
-                      <p>Estoy de acuerdo con los terminos y politicas</p>
-                    </div>
-                  </div>
-                </div>
               </Col>
             </Row>
           </div>

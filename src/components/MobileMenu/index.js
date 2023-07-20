@@ -34,11 +34,11 @@ const MobileMenu = ({ data }) => {
         <ul className="mobile-nav__contact list-unstyled">
           <li>
             <i className="fa fa-envelope"></i>
-            <a href="mailto:needhelp@packageName__.com">needhelp@tevily.com</a>
+            <a href="mailto:contacto@visitasancarlos.com.mx">contacto@visitasancarlos.com.mx</a>
           </li>
           <li>
             <i className="fa fa-phone-alt"></i>
-            <a href="tel:666-888-0000">666 888 0000</a>
+            <a href="tel:622-123-4567">622 123 4567</a>
           </li>
         </ul>
         <div className="mobile-nav__top">

@@ -6,8 +6,7 @@ import Image from "next/image";
 import bg from "@/assets/images/resources/statistics-bg.png";
 
 const Statistics = ({ data }) => {
-  const { tagline, title, counter } = data;
-
+  const { tagline, title, count } = data;
   return (
     <>
       <div className="video-two">
@@ -34,7 +33,7 @@ const Statistics = ({ data }) => {
           </Row>
         </Container>
       </div>
-      <Counter data={counter} />
+      <Counter data={count} />
     </>
   );
 };

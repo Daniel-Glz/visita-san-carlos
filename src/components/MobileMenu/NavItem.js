@@ -22,13 +22,6 @@ const NavItem = ({ item = {} }) => {
     <li className={classNames("dropdown", {"current": pathname === href})}>
       <Link href={href} className={expand ? " expanded" : ""}>
           {name}
-          <button
-            onClick={handleExpand}
-            aria-label="dropdown toggler"
-            className={classNames({ "expanded": expand })}
-          >
-            <i className="fa fa-angle-down"></i>
-          </button>
       </Link>
       <ul
         style={{
