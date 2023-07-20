@@ -9,7 +9,7 @@ import useScroll from "@/hooks/useScroll";
 
 const Header = ({ isHome, data }) => {
   const scrollTop = useScroll(130);
-  const { icons, cta, logo, navItems } = data;
+  const { icons, cta, logo, logo2, navItems } = data;
   const { toggleMenu, toggleSearch } = useRootContext();
 
   return (
@@ -67,8 +67,8 @@ const Header = ({ isHome, data }) => {
                 <div className="main-menu-wrapper__logo">
                   <Link href="/" aria-label="Imagen de logo">
                     <Image
-                      src={logo.src}
-                      alt={logo.alt}
+                      src={isHome ? logo2.src : logo.src}
+                      alt={isHome ? logo2.alt : logo.src}
                     />
                   </Link>
                 </div>

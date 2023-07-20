@@ -14,6 +14,10 @@
     ],
     "logo": {
       "alt": "Visita San Carlos",
+      "src": "/logo-1.png"
+    },
+    "logo2": {
+      "alt": "Visita San Carlos",
       "src": "/logo-2.png"
     },
     "social": [],
@@ -51,8 +55,8 @@
     ]
   },
   "footer": {
-    "about": "Welcome to our Trip and Tour Agency. Lorem simply text amet cing elit.",
-    "author": "Lorem ipsum dolor",
+    "about": "Ven a San Carlos y descubre su belleza natural, playas y cultura local auténtica. ¡Te encantará!",
+    "author": "Visita San Carlos",
     "companies": [
       {
         "id": 1,
@@ -71,24 +75,24 @@
       {
         "id": 1,
         "icon": "fas fa-phone-square-alt",
-        "content": "+ 92 666 999 0000",
+        "content": "622 123 4567",
         "subHref": "tel"
       },
       {
         "id": 2,
         "icon": "fas fa-envelope",
-        "content": "needhelp@company.com",
+        "content": "contacto@visitasancarlos.com.mx",
         "subHref": "mailto"
       },
       {
         "id": 3,
-        "icon": "fas fa-map-marker-alt",
-        "content": "666 road, broklyn street new york"
+        "icon": "fas fa-users",
+        "content": "San Carlos, Sonora, Mexico"
       }
     ],
     "logo": {
       "alt": "Visita San Carlos",
-      "src": "https://www.booking.com/hotel/mx/visita-sancarlos.es.html"
+      "src": "/logo-1.png"
     }
   },
   "pages": {
@@ -108,19 +112,19 @@
         "items": [
           {
             "id": 1,
-            "icon": "icon-cashback",
+            "icon": "fal fa-place-of-worship fa-sm",
             "title": "Ven a los lugares turisticos",
             "text": "Disfruta de las playas y atracciones que San Carlos tiene para ti."
           },
           {
             "id": 2,
-            "icon": "icon-booking",
+            "icon": "fal fa-calendar-star fa-sm",
             "title": "Informate de los eventos",
             "text": "Busca los eventos que se realizan en San Carlos y disfruta de ellos."
           },
           {
             "id": 3,
-            "icon": "icon-travel",
+            "icon": "fal fa-store fa-sm",
             "title": "Conoce los negocios locales",
             "text": "Informate de los negocios locales y los servicios que se ofrecen en San Carlos."
           }
@@ -134,7 +138,8 @@
         "cta": {
           "text": "Busca un hospedaje",
           "subText": "Reserva aqui",
-          "link": "https://www.booking.com/hotel/mx/visita-sancarlos.es.html"
+          "link": "https://www.booking.com/hotel/mx/visita-sancarlos.es.html",
+          "icon": "fas fa-concierge-bell fa-lg"
         },
         "tagline": "Ven y conoce",
         "title": "Planea tu viaje a San Carlos, Sonora",
@@ -293,47 +298,47 @@
         "title": "Elige que tipo de negocio / lugar buscas",
         "lists": [
           {
-            "icon": "icon-deer",
+            "icon": "fal fa-hotel fa-sm",
             "title": "Hoteles"
           },
           {
-            "icon": "icon-paragliding",
+            "icon": "fal fa-utensils fa-sm",
             "title": "Restaurantes"
           },
           {
-            "icon": "icon-flag",
-            "title": "Servicios altamar"
+            "icon": "fal fa-ship fa-sm",
+            "title": "Servicios maritimos"
           },
           {
-            "icon": "icon-hang-gliding",
+            "icon": "fal fa-umbrella-beach fa-sm",
             "title": "Playas"
           },
           {
-            "icon": "icon-booking",
+            "icon": "fal fa-location-plus fa-sm",
             "title": "Mas categorias"
           }
         ]
       },
       "statistics": {
         "bg": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwiki-random.fandom.com%2Fes%2Fwiki%2FPou&psig=AOvVaw3MCcQBCInkuoeNRS4Ytcq8&ust=1679273487838000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCLi6_7Hj5v0CFQAAAAAdAAAAABAD",
-        "tagline": "Are you ready to travel?",
-        "title": "Tevily is a World Leading \n Online Tour Booking Platform",
+        "tagline": "Preparate y visitanos!",
+        "title": "Nosotros te ayudamos a encontrar lo que buscas",
         "counter": {
           "items": [
             {
-              "text": "Total Donations",
+              "text": "Lugares turisticos",
               "count": "54"
             },
             {
-              "text": "Campaigns Closed",
+              "text": "Eventos",
               "count": "12"
             },
             {
-              "text": "Happy People",
+              "text": "Resenas",
               "count": "23"
             },
             {
-              "text": "Our Volunteers",
+              "text": "Negocios locales",
               "count": "45"
             }
           ]
@@ -341,8 +346,8 @@
       },
       "category_list": {
         "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwiki-random.fandom.com%2Fes%2Fwiki%2FPou&psig=AOvVaw3MCcQBCInkuoeNRS4Ytcq8&ust=1679273487838000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCLi6_7Hj5v0CFQAAAAAdAAAAABAD",
-        "tagline": "Our destination lists",
-        "title": "Checkout Beautiful Places Arround the World",
+        "tagline": "Nuestro directorio de negocios",
+        "title": "Algunos de los negocios locales mas populares",
         "categories": [
           {
             "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Vistasancarlos-1-.jpg/1200px-Vistasancarlos-1-.jpg",
@@ -370,8 +375,12 @@
         "off": "30%"
       },
       "post_list": {
-        "tagline": "From the blog post",
-        "title": "News & Articles",
+        "tagline": "Nuestro blog",
+        "title": "Ultimos articulos",
+        "cta": {
+          "text": "Ver todos los articulos",
+          "link": "blog.html"
+        },
         "newsData": [
           {
             "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Vistasancarlos-1-.jpg/1200px-Vistasancarlos-1-.jpg",
@@ -400,8 +409,8 @@
         "bg": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwiki-random.fandom.com%2Fes%2Fwiki%2FPou&psig=AOvVaw3MCcQBCInkuoeNRS4Ytcq8&ust=1679273487838000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCLi6_7Hj5v0CFQAAAAAdAAAAABAD",
         "shape1": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwiki-random.fandom.com%2Fes%2Fwiki%2FPou&psig=AOvVaw3MCcQBCInkuoeNRS4Ytcq8&ust=1679273487838000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCLi6_7Hj5v0CFQAAAAAdAAAAABAD",
         "shape2": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwiki-random.fandom.com%2Fes%2Fwiki%2FPou&psig=AOvVaw3MCcQBCInkuoeNRS4Ytcq8&ust=1679273487838000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCLi6_7Hj5v0CFQAAAAAdAAAAABAD",
-        "tagline": "Testimonials & reviews",
-        "title": "What They’re Saying",
+        "tagline": "Experiencias y opiniones",
+        "title": "¿Que tal estan los lugares turisticos?",
         "testimonials": [
           {
             "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Vistasancarlos-1-.jpg/1200px-Vistasancarlos-1-.jpg",
@@ -531,6 +540,189 @@
           "link": "/lugares-turisticos"
         }
       },
+      "testimonial": {
+        "bg": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwiki-random.fandom.com%2Fes%2Fwiki%2FPou&psig=AOvVaw3MCcQBCInkuoeNRS4Ytcq8&ust=1679273487838000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCLi6_7Hj5v0CFQAAAAAdAAAAABAD",
+        "shape1": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwiki-random.fandom.com%2Fes%2Fwiki%2FPou&psig=AOvVaw3MCcQBCInkuoeNRS4Ytcq8&ust=1679273487838000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCLi6_7Hj5v0CFQAAAAAdAAAAABAD",
+        "shape2": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwiki-random.fandom.com%2Fes%2Fwiki%2FPou&psig=AOvVaw3MCcQBCInkuoeNRS4Ytcq8&ust=1679273487838000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCLi6_7Hj5v0CFQAAAAAdAAAAABAD",
+        "tagline": "Experiencias y opiniones",
+        "title": "¿Que tal estan los lugares turisticos?",
+        "testimonials": [
+          {
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Vistasancarlos-1-.jpg/1200px-Vistasancarlos-1-.jpg",
+            "review": "5",
+            "description":
+              "This is due to their best service, pricing and customer support. It’s throughly refresing to such a personal touch. Duis aute irure lupsum reprehenderit.",
+            "client": {
+              "name": "Shirley Smith",
+              "role": "Customer"
+            }
+          },
+          {
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Vistasancarlos-1-.jpg/1200px-Vistasancarlos-1-.jpg",
+            "review": "5",
+            "description":
+              "This is due to their best service, pricing and customer support. It’s throughly refresing to such a personal touch. Duis aute irure lupsum reprehenderit.",
+            "client": {
+              "name": "Kevin Martin",
+              "role": "Customer"
+            }
+          },
+          {
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Vistasancarlos-1-.jpg/1200px-Vistasancarlos-1-.jpg",
+            "review": "5",
+            "description":
+              "This is due to their best service, pricing and customer support. It’s throughly refresing to such a personal touch. Duis aute irure lupsum reprehenderit.",
+            "client": {
+              "name": "Jessica Brown",
+              "role": "Customer"
+            }
+          },
+          {
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Vistasancarlos-1-.jpg/1200px-Vistasancarlos-1-.jpg",
+            "review": "5",
+            "description":
+              "This is due to their best service, pricing and customer support. It’s throughly refresing to such a personal touch. Duis aute irure lupsum reprehenderit.",
+            "client": {
+              "name": "Shirley Smith",
+              "role": "Customer"
+            }
+          },
+          {
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Vistasancarlos-1-.jpg/1200px-Vistasancarlos-1-.jpg",
+            "review": "5",
+            "description":
+              "This is due to their best service, pricing and customer support. It’s throughly refresing to such a personal touch. Duis aute irure lupsum reprehenderit.",
+            "client": {
+              "name": "Kevin Martin",
+              "role": "Customer"
+            }
+          },
+          {
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Vistasancarlos-1-.jpg/1200px-Vistasancarlos-1-.jpg",
+            "review": "5",
+            "description":
+              "This is due to their best service, pricing and customer support. It’s throughly refresing to such a personal touch. Duis aute irure lupsum reprehenderit.",
+            "client": {
+              "name": "Jessica Brown",
+              "role": "Customer"
+            }
+          },
+          {
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Vistasancarlos-1-.jpg/1200px-Vistasancarlos-1-.jpg",
+            "review": "5",
+            "description":
+              "This is due to their best service, pricing and customer support. It’s throughly refresing to such a personal touch. Duis aute irure lupsum reprehenderit.",
+            "client": {
+              "name": "Shirley Smith",
+              "role": "Customer"
+            }
+          },
+          {
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Vistasancarlos-1-.jpg/1200px-Vistasancarlos-1-.jpg",
+            "review": "5",
+            "description":
+              "This is due to their best service, pricing and customer support. It’s throughly refresing to such a personal touch. Duis aute irure lupsum reprehenderit.",
+            "client": {
+              "name": "Kevin Martin",
+              "role": "Customer"
+            }
+          },
+          {
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Vistasancarlos-1-.jpg/1200px-Vistasancarlos-1-.jpg",
+            "review": "5",
+            "description":
+              "This is due to their best service, pricing and customer support. It’s throughly refresing to such a personal touch. Duis aute irure lupsum reprehenderit.",
+            "client": {
+              "name": "Jessica Brown",
+              "role": "Customer"
+            }
+          }
+        ]
+      },
+      "list": {
+        "tagline": "Visita uno de nuestros",
+        "title": "Lugares turisticos",
+        "popularTours": [
+          {
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Vistasancarlos-1-.jpg/1200px-Vistasancarlos-1-.jpg",
+            "title": "National Park 2 Days Tour",
+            "superb": "8.0",
+            "rate": "1870",
+            "meta": ["3 Days", "12+", "Los Angeles"]
+          },
+          {
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Vistasancarlos-1-.jpg/1200px-Vistasancarlos-1-.jpg",
+            "title": "Magic of Italy Tours",
+            "superb": "8.0",
+            "rate": "1870",
+            "meta": ["3 Days", "12+", "Los Angeles"]
+          },
+          {
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Vistasancarlos-1-.jpg/1200px-Vistasancarlos-1-.jpg",
+            "title": "Discover Depth of Beach",
+            "superb": "8.0",
+            "rate": "1870",
+            "meta": ["3 Days", "12+", "Los Angeles"]
+          },
+          {
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Vistasancarlos-1-.jpg/1200px-Vistasancarlos-1-.jpg",
+            "title": "Moscow Red City Land",
+            "superb": "8.0",
+            "rate": "1870",
+            "meta": ["3 Days", "12+", "Los Angeles"]
+          },
+          {
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Vistasancarlos-1-.jpg/1200px-Vistasancarlos-1-.jpg",
+            "title": "Dark Forest Adventure",
+            "superb": "8.0",
+            "rate": "1870",
+            "meta": ["3 Days", "12+", "Los Angeles"]
+          },
+          {
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Vistasancarlos-1-.jpg/1200px-Vistasancarlos-1-.jpg",
+            "title": "Discover Depth of Beach",
+            "superb": "8.0",
+            "rate": "1870",
+            "meta": ["3 Days", "12+", "Los Angeles"]
+          }
+        ]
+      }
+    },
+    "events": {
+      "meta": {
+        "title": "Lugares turisticos en San Carlos"
+      },
+      "banner": {
+        "title": "Lugares turisticos en San Carlos",
+        "bottomText": "Vive una aventura inolvidable",
+        "sub_title": "Lorem ipsum dolor",
+        "slides": [
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Vistasancarlos-1-.jpg/1200px-Vistasancarlos-1-.jpg"
+        ]
+      },
+      "about": {
+        "about": {
+          "src": "https://www.elsoldemexico.com.mx/incoming/2awenv-son-san-carlos.jpg/ALTERNATES/LANDSCAPE_1140/SON-SAN-CARLOS.jpg",
+          "alt": ""
+        },
+        "cta": {
+          "text": "Busca un hospedaje",
+          "subText": "Reserva aqui",
+          "link": "https://www.booking.com/hotel/mx/visita-sancarlos.es.html"
+        },
+        "tagline": "Ven y conoce",
+        "title": "Planea tu viaje a San Carlos, Sonora",
+        "destination": "San Carlos Sonora es uno de los destinos turísticos más hermosos y fascinantes de México, que cuenta con una amplia variedad de actividades para disfrutar y lugares para explorar. Si estás buscando un lugar para escapar de la rutina diaria, relajarte y disfrutar del mar y la naturaleza, San Carlos es el lugar perfecto para ti.",
+        "points": [
+          "disfruta de actividades acuaticas.",
+          "Una impresionante diversidad natural.",
+          "Una rica cultura local."
+        ],
+        "button": {
+          "text": "Ver mas",
+          "link": "/lugares-turisticos"
+        }
+      },
       "list": {
         "tagline": "Visita uno de nuestros",
         "title": "Lugares turisticos populares",
@@ -578,6 +770,318 @@
             "meta": ["3 Days", "12+", "Los Angeles"]
           }
         ]
+      }
+    },
+    "business": {
+      "meta": {
+        "title": "Lugares turisticos en San Carlos"
+      },
+      "banner": {
+        "title": "Lugares turisticos en San Carlos",
+        "bottomText": "Vive una aventura inolvidable",
+        "sub_title": "Lorem ipsum dolor",
+        "slides": [
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Vistasancarlos-1-.jpg/1200px-Vistasancarlos-1-.jpg"
+        ]
+      },
+      "about": {
+        "about": {
+          "src": "https://www.elsoldemexico.com.mx/incoming/2awenv-son-san-carlos.jpg/ALTERNATES/LANDSCAPE_1140/SON-SAN-CARLOS.jpg",
+          "alt": ""
+        },
+        "cta": {
+          "text": "Busca un hospedaje",
+          "subText": "Reserva aqui",
+          "link": "https://www.booking.com/hotel/mx/visita-sancarlos.es.html"
+        },
+        "tagline": "Ven y conoce",
+        "title": "Planea tu viaje a San Carlos, Sonora",
+        "destination": "San Carlos Sonora es uno de los destinos turísticos más hermosos y fascinantes de México, que cuenta con una amplia variedad de actividades para disfrutar y lugares para explorar. Si estás buscando un lugar para escapar de la rutina diaria, relajarte y disfrutar del mar y la naturaleza, San Carlos es el lugar perfecto para ti.",
+        "points": [
+          "disfruta de actividades acuaticas.",
+          "Una impresionante diversidad natural.",
+          "Una rica cultura local."
+        ],
+        "button": {
+          "text": "Ver mas",
+          "link": "/lugares-turisticos"
+        }
+      },
+      "list": {
+        "tagline": "Visita uno de nuestros",
+        "title": "Lugares turisticos populares",
+        "popularTours": [
+          {
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Vistasancarlos-1-.jpg/1200px-Vistasancarlos-1-.jpg",
+            "title": "National Park 2 Days Tour",
+            "superb": "8.0",
+            "rate": "1870",
+            "meta": ["3 Days", "12+", "Los Angeles"]
+          },
+          {
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Vistasancarlos-1-.jpg/1200px-Vistasancarlos-1-.jpg",
+            "title": "Magic of Italy Tours",
+            "superb": "8.0",
+            "rate": "1870",
+            "meta": ["3 Days", "12+", "Los Angeles"]
+          },
+          {
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Vistasancarlos-1-.jpg/1200px-Vistasancarlos-1-.jpg",
+            "title": "Discover Depth of Beach",
+            "superb": "8.0",
+            "rate": "1870",
+            "meta": ["3 Days", "12+", "Los Angeles"]
+          },
+          {
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Vistasancarlos-1-.jpg/1200px-Vistasancarlos-1-.jpg",
+            "title": "Moscow Red City Land",
+            "superb": "8.0",
+            "rate": "1870",
+            "meta": ["3 Days", "12+", "Los Angeles"]
+          },
+          {
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Vistasancarlos-1-.jpg/1200px-Vistasancarlos-1-.jpg",
+            "title": "Dark Forest Adventure",
+            "superb": "8.0",
+            "rate": "1870",
+            "meta": ["3 Days", "12+", "Los Angeles"]
+          },
+          {
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Vistasancarlos-1-.jpg/1200px-Vistasancarlos-1-.jpg",
+            "title": "Discover Depth of Beach",
+            "superb": "8.0",
+            "rate": "1870",
+            "meta": ["3 Days", "12+", "Los Angeles"]
+          }
+        ]
+      }
+    },
+    "articles": {
+      "meta": {
+        "title": "Lugares turisticos en San Carlos"
+      },
+      "banner": {
+        "title": "Lugares turisticos en San Carlos",
+        "bottomText": "Vive una aventura inolvidable",
+        "sub_title": "Lorem ipsum dolor",
+        "slides": [
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Vistasancarlos-1-.jpg/1200px-Vistasancarlos-1-.jpg"
+        ]
+      },
+      "about": {
+        "about": {
+          "src": "https://www.elsoldemexico.com.mx/incoming/2awenv-son-san-carlos.jpg/ALTERNATES/LANDSCAPE_1140/SON-SAN-CARLOS.jpg",
+          "alt": ""
+        },
+        "cta": {
+          "text": "Busca un hospedaje",
+          "subText": "Reserva aqui",
+          "link": "https://www.booking.com/hotel/mx/visita-sancarlos.es.html"
+        },
+        "tagline": "Ven y conoce",
+        "title": "Planea tu viaje a San Carlos, Sonora",
+        "destination": "San Carlos Sonora es uno de los destinos turísticos más hermosos y fascinantes de México, que cuenta con una amplia variedad de actividades para disfrutar y lugares para explorar. Si estás buscando un lugar para escapar de la rutina diaria, relajarte y disfrutar del mar y la naturaleza, San Carlos es el lugar perfecto para ti.",
+        "points": [
+          "disfruta de actividades acuaticas.",
+          "Una impresionante diversidad natural.",
+          "Una rica cultura local."
+        ],
+        "button": {
+          "text": "Ver mas",
+          "link": "/lugares-turisticos"
+        }
+      },
+      "list": {
+        "tagline": "Visita uno de nuestros",
+        "title": "Lugares turisticos populares",
+        "popularTours": [
+          {
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Vistasancarlos-1-.jpg/1200px-Vistasancarlos-1-.jpg",
+            "title": "National Park 2 Days Tour",
+            "superb": "8.0",
+            "rate": "1870",
+            "meta": ["3 Days", "12+", "Los Angeles"]
+          },
+          {
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Vistasancarlos-1-.jpg/1200px-Vistasancarlos-1-.jpg",
+            "title": "Magic of Italy Tours",
+            "superb": "8.0",
+            "rate": "1870",
+            "meta": ["3 Days", "12+", "Los Angeles"]
+          },
+          {
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Vistasancarlos-1-.jpg/1200px-Vistasancarlos-1-.jpg",
+            "title": "Discover Depth of Beach",
+            "superb": "8.0",
+            "rate": "1870",
+            "meta": ["3 Days", "12+", "Los Angeles"]
+          },
+          {
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Vistasancarlos-1-.jpg/1200px-Vistasancarlos-1-.jpg",
+            "title": "Moscow Red City Land",
+            "superb": "8.0",
+            "rate": "1870",
+            "meta": ["3 Days", "12+", "Los Angeles"]
+          },
+          {
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Vistasancarlos-1-.jpg/1200px-Vistasancarlos-1-.jpg",
+            "title": "Dark Forest Adventure",
+            "superb": "8.0",
+            "rate": "1870",
+            "meta": ["3 Days", "12+", "Los Angeles"]
+          },
+          {
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Vistasancarlos-1-.jpg/1200px-Vistasancarlos-1-.jpg",
+            "title": "Discover Depth of Beach",
+            "superb": "8.0",
+            "rate": "1870",
+            "meta": ["3 Days", "12+", "Los Angeles"]
+          }
+        ]
+      }
+    }
+  },
+  "example": {
+    "slider": [
+      {
+        "id": 1,
+        "bg": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Vistasancarlos-1-.jpg/1200px-Vistasancarlos-1-.jpg"
+      },
+      {
+        "id": 2,
+        "bg": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Vistasancarlos-1-.jpg/1200px-Vistasancarlos-1-.jpg"
+      }
+    ],
+    "detailsPage": {
+      "detailsOne": {
+        "title": "Lugares turisticos en San Carlos",
+        "rate": "1870",
+        "superb": 4,
+        "duration": "3 Days",
+        "minAge": "12+",
+        "tourType": "Los Angeles",
+        "location": "San Carlos Sonora",
+        "date": "28 Aug"
+      },
+      "detailsTwo": {
+        "detailsLeft": {
+          "overview": "hola",
+          "overviewList": [
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          ],
+          "faq": [
+            {
+              "id": 1,
+              "title": "Mas categorias",
+              "text": "Busca los eventos que se realizan en San Carlos y disfruta de ellos.",
+              "lists": [
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+              ]
+            }
+          ],
+          "superb": 4,
+          "popularTours": [
+            {
+              "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Vistasancarlos-1-.jpg/1200px-Vistasancarlos-1-.jpg",
+              "title": "National Park 2 Days Tour",
+              "superb": "8.0",
+              "rate": "1870",
+              "meta": [
+                "3 Days",
+                "12+",
+                "Los Angeles"
+              ]
+            },
+            {
+              "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Vistasancarlos-1-.jpg/1200px-Vistasancarlos-1-.jpg",
+              "title": "Dark Forest Adventure",
+              "superb": "8.0",
+              "rate": "1870",
+              "meta": [
+                "3 Days",
+                "12+",
+                "Los Angeles"
+              ]
+            },
+            {
+              "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Vistasancarlos-1-.jpg/1200px-Vistasancarlos-1-.jpg",
+              "title": "Discover Depth of Beach",
+              "superb": "8.0",
+              "rate": "1870",
+              "meta": [
+                "3 Days",
+                "12+",
+                "Los Angeles"
+              ]
+            },
+            {
+              "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Vistasancarlos-1-.jpg/1200px-Vistasancarlos-1-.jpg",
+              "title": "Moscow Red City Land",
+              "superb": "8.0",
+              "rate": "1870",
+              "meta": [
+                "3 Days",
+                "12+",
+                "Los Angeles"
+              ]
+            },
+            {
+              "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Vistasancarlos-1-.jpg/1200px-Vistasancarlos-1-.jpg",
+              "title": "Magic of Italy Tours",
+              "superb": "8.0",
+              "rate": "1870",
+              "meta": [
+                "3 Days",
+                "12+",
+                "Los Angeles"
+              ]
+            },
+            {
+              "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Vistasancarlos-1-.jpg/1200px-Vistasancarlos-1-.jpg",
+              "title": "National Park 2 Days Tour",
+              "superb": "8.0",
+              "rate": "1870",
+              "meta": [
+                "3 Days",
+                "12+",
+                "Los Angeles"
+              ]
+            },
+            {
+              "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Vistasancarlos-1-.jpg/1200px-Vistasancarlos-1-.jpg",
+              "title": "Discover Depth of Beach",
+              "superb": "8.0",
+              "rate": "1870",
+              "meta": [
+                "3 Days",
+                "12+",
+                "Los Angeles"
+              ]
+            },
+            {
+              "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Vistasancarlos-1-.jpg/1200px-Vistasancarlos-1-.jpg",
+              "title": "National Park 2 Days Tour",
+              "superb": "8.0",
+              "rate": "1870",
+              "meta": [
+                "3 Days",
+                "12+",
+                "Los Angeles"
+              ]
+            },
+            {
+              "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Vistasancarlos-1-.jpg/1200px-Vistasancarlos-1-.jpg",
+              "title": "National Park 2 Days Tour",
+              "superb": "8.0",
+              "rate": "1870",
+              "meta": [
+                "3 Days",
+                "12+",
+                "Los Angeles"
+              ]
+            }
+          ]
+        }
       }
     }
   }

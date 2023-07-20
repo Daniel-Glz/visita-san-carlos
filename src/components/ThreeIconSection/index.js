@@ -13,7 +13,7 @@ const ThreeIconSection = ({ data }) => {
             <Col key={id} xl={4} lg={4} className="animated fadeInUp">
               <div className="three-icon-box__single">
                 <div className="three-icon-box__icon">
-                  <span className={icon}></span>
+                  <i className={icon}></i>
                 </div>
                 <div className="three-icon-box__content">
                   <h4 className="three-icon-box__title">{title}</h4>

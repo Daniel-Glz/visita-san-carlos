@@ -444,7 +444,7 @@ ul {
 .main-menu-wrapper__logo {
   float: left;
   margin-right: 150px;
-  padding: 22px 0px 22px 0px;
+  padding: 8px 0px 8px 0px;
   position: relative;
 }
 
@@ -1981,6 +1981,7 @@ ul {
 
 .about-one__img img {
   width: 100%;
+  object-fit: cover;
 }
 
 .about-one__call {
@@ -2549,6 +2550,7 @@ ul {
   overflow: hidden;
   position: relative;
   width: 230px;
+  object-fit: cover;
 }
 
 .testimonial-one__img:before {
@@ -2573,6 +2575,7 @@ ul {
   border-radius: 50%;
   transition: all 500ms ease;
   width: 100%;
+  object-fit: cover;
 }
 
 .testimonial-one__single:hover .testimonial-one__img img {
@@ -3096,6 +3099,7 @@ ul {
   transform: scale(1);
   transition: all 500ms ease;
   width: 100%;
+  object-fit: cover;
 }
 
 .news-one__single:hover .news-one__img img {
@@ -3667,9 +3671,13 @@ ul {
   transform: scale(1.2);
 }
 
-.three-icon-box__icon span {
+.three-icon-box__icon i {
   color: var(--thm-primary);
-  font-size: 63px;
+  font-size: 52px;
+  line-height: 62px;
+  height: 62px;
+  width: 64px;
+  text-align: center
 }
 
 .three-icon-box__content {
@@ -4024,6 +4032,7 @@ ul {
   transform: scale(1);
   transition: all 500ms ease;
   width: 100%;
+  object-fit: cover;
 }
 
 .destinations-two__top-single:hover .destinations-two__top-img img {
@@ -4188,10 +4197,14 @@ ul {
 .tour-types__icon {
   color: var(--thm-primary);
   font-size: 64px;
+  height: 64px;
   margin-bottom: 19px;
   transition: all 500ms ease;
 }
 
+.tour-types__icon i {
+  line-height: 64px;
+}
 .tour-types__single:hover .tour-types__icon {
   color: var(--thm-base);
   transform: rotateY(180deg);
@@ -5432,7 +5445,7 @@ ul {
   -webkit-transition: all 0.2s ease;
   color: var(--thm-primary);
   content: "\f14a";
-  font-family: "Font Awesome 5 Free";
+  font-family: "Font Awesome 6 Pro";
   font-size: 18px;
   font-weight: 900;
   left: 0px;
@@ -6072,7 +6085,7 @@ ul {
   color: var(--thm-black);
   content: "\f106";
   display: flex;
-  font-family: "Font Awesome 5 Free";
+  font-family: "Font Awesome 6 Pro";
   font-size: 17px;
   font-weight: 900;
   height: 35px;

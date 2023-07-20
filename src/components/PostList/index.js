@@ -5,7 +5,7 @@ import PostListItem from "./PostListItem";
 import PropTypes from "prop-types";
 
 const PostList = ({ data }) => {
-  const { tagline, title, newsData } = data;
+  const { tagline, title, newsData, cta } = data;
 
   return (
     <section className="news-one">
@@ -22,8 +22,8 @@ const PostList = ({ data }) => {
             </Col>
             <Col xl={3} lg={3}>
               <div className="news-one__top-right">
-                <Link className="news-one__btn thm-btn" href="/news-details">
-                  View All posts
+                <Link className="news-one__btn thm-btn" href={cta.link}>
+                  {cta.text}
                 </Link>
               </div>
             </Col>

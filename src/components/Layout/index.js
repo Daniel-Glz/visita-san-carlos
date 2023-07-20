@@ -7,6 +7,7 @@ import Header from "@/components/Header";
 import MobileMenu from "@/components/MobileMenu";
 import Preloader from "@/components/Preloader";
 import Search from "@/components/Search";
+import Favicon from "../Favicon";
 
 const Layout = ({ children, isHome, pageTitle, data }) => {
   const [loading, setLoading] = useState(true);
@@ -25,6 +26,7 @@ const Layout = ({ children, isHome, pageTitle, data }) => {
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>{pageTitle} - Visita San Carlos, Mexico</title>
+        <Favicon />
       </Head>
       <Preloader loading={loading} />
       <main style={{ opacity: loading ? 0 : 1 }} className="page-wrapper">

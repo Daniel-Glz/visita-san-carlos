@@ -2,6 +2,7 @@ import dynamic from "next/dynamic";
 import React from "react";
 import { Col, Container, Image, Row } from "react-bootstrap";
 import TestimonialItem from "./TestimonialItem";
+import 'tiny-slider/dist/tiny-slider.css';
 
 const TinySlider = dynamic(() => import("tiny-slider-react"), { ssr: false });
 

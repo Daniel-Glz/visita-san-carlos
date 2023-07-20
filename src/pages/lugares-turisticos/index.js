@@ -5,12 +5,14 @@ import { convertNamingConvention } from "@/utils";
 import PropTypes from 'prop-types';
 import About from "@/components/About";
 import List from "@/components/List";
+import Testimonial from "@/components/Testimonial";
 
 const LugaresTuristicos = ({ data }) => {
   const {
     meta,
     banner,
     about,
+    testimonial,
     list
   } = convertNamingConvention(data.pages.touristic);
   let { header, footer } = data;
@@ -21,6 +23,7 @@ const LugaresTuristicos = ({ data }) => {
     <Layout data={{header, footer}} pageTitle={meta.title} isHome={true}>
       <Banner data={banner} />
       <About data={about} />
+      <Testimonial data={testimonial} />
       <List data={list} />
     </Layout>
   );

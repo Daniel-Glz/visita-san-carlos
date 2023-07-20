@@ -21,7 +21,7 @@ const TouristicPlacesList = ({ data }) => {
             <li key={index} className="tour-types__single animated fadeInUp">
               <div className="tour-types__content">
                 <div className="tour-types__icon">
-                  <span className={icon}></span>
+                  <i className={icon}></i>
                 </div>
                 <h4 className="tour-types__title">{title}</h4>
               </div>

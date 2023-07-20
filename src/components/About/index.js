@@ -35,7 +35,7 @@ const About = ({ data }) => {
                 </div>
                 <div className="about-one__call">
                   <div className="about-one__call-icon">
-                    <span className="icon-phone-call"></span>
+                    <i className={cta.icon}></i>
                   </div>
                   <div className="about-one__call-number">
                     <p>{cta.subText}</p>

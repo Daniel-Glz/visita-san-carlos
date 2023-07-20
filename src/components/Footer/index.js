@@ -46,7 +46,7 @@ const Footer = ({ data }) => {
               </Col>
               <Col xl={2} lg={6} md={6} className="animated fadeInUp">
                 <div className="footer-widget__column footer-widget__company clearfix">
-                  <h3 className="footer-widget__title">Company</h3>
+                  <h3 className="footer-widget__title">Te podria interesar</h3>
                   <ul className="footer-widget__company-list list-unstyled">
                     {companies.map(({ id, link, title }) => (
                       <li key={id}>
@@ -58,7 +58,7 @@ const Footer = ({ data }) => {
               </Col>
               <Col xl={2} lg={6} md={6} className="animated fadeInUp">
                 <div className="footer-widget__column footer-widget__explore">
-                  <h3 className="footer-widget__title">Explore</h3>
+                  <h3 className="footer-widget__title">Ultimos articulos</h3>
                   <ul className="list-unstyled footer-widget__explore-list">
                     {explore.map(({ id, title, link }) => (
                       <li key={id}>
@@ -78,7 +78,7 @@ const Footer = ({ data }) => {
                     <div className="footer-widget__newsletter-input-box">
                       <input
                         type="email"
-                        placeholder="Email address"
+                        placeholder="Correo Electronico"
                         name="email"
                         required
                       />
@@ -86,7 +86,7 @@ const Footer = ({ data }) => {
                         type="submit"
                         className="footer-widget__newsletter-btn"
                       >
-                        Subscribe
+                        Subscribete
                       </button>
                     </div>
                   </form>
@@ -96,7 +96,7 @@ const Footer = ({ data }) => {
                       <i className="fa fa-check"></i>
                     </div>
                     <div className="footer-widget__newsletter-bottom-text">
-                      <p>I agree to all terms and policies</p>
+                      <p>Estoy de acuerdo con los terminos y politicas</p>
                     </div>
                   </div>
                 </div>
@@ -114,7 +114,7 @@ const Footer = ({ data }) => {
                 </div>
                 <div className="site-footer__bottom-right">
                   <p>
-                    @ All Copyright {new Date().getFullYear()}, <a href="#">{author}</a>
+                    Todos los derechos reservados {new Date().getFullYear()}, <a href="#">{author}</a>
                   </p>
                 </div>
                 <div className="site-footer__bottom-left-arrow">
