@@ -5,6 +5,7 @@ import PropTypes from 'prop-types';
 import About from "@/components/About";
 import List from "@/components/List";
 import Testimonial from "@/components/Testimonial";
+import { getStaticData } from "@/utils";
 
 const LugaresTuristicos = ({ data }) => {
   const {
@@ -31,8 +32,7 @@ LugaresTuristicos.propTypes = {
 };
 
 export async function getStaticProps() {
-  const res = await fetch('http://localhost:3000/data/data.json');
-  const data = await res.json();
+  let data = await getStaticData();
 
   return { props: { data } }
 }

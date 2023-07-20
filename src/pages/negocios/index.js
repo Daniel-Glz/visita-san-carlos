@@ -4,6 +4,7 @@ import Layout from "@/components/Layout";
 import PropTypes from 'prop-types';
 import About from "@/components/About";
 import List from "@/components/List";
+import { getStaticData } from "@/utils";
 
 const Negocios = ({ data }) => {
   const {
@@ -28,8 +29,7 @@ Negocios.propTypes = {
 };
 
 export async function getStaticProps() {
-  const res = await fetch('http://localhost:3000/data/data.json');
-  const data = await res.json();
+  let data = await getStaticData();
 
   return { props: { data } }
 }

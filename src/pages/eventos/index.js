@@ -28,8 +28,7 @@ Eventos.propTypes = {
 };
 
 export async function getStaticProps() {
-  const res = await fetch('http://localhost:3000/data/data.json');
-  const data = await res.json();
+  let data = await getStaticData();
 
   return { props: { data } }
 }

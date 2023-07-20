@@ -3,14 +3,16 @@ import DetailsPage from "@/components/DetailsPage";
 import React from "react";
 import { gql } from "@apollo/client";
 import client from "@/api/ApolloClient";
+import { addStaticData } from "@/utils";
 
 const EventDetails = ({ data }) => {
   const { event } = data;
   let { header, footer } = data;
+  const detailsTitle = 'Eventos en San Carlos';
 
   return (
     <Layout data={{ header, footer }} pageTitle={event.title}>
-      <DetailsPage data={event} />
+      <DetailsPage data={event} title={detailsTitle} />
     </Layout>
   );
 };

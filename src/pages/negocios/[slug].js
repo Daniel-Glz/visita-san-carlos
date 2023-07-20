@@ -3,16 +3,15 @@ import DetailsPage from "@/components/DetailsPage";
 import React from "react";
 import { gql } from "@apollo/client";
 import client from "@/api/ApolloClient";
-import { addStaticData } from "@/utils";
 
 const EventDetails = ({ data }) => {
-  const { touristicPlace } = data;
+  const { business } = data;
   let { header, footer } = data;
-  const detailsTitle = 'Lugares turísticos en San Carlos';
+  const detailsTitle = "Negocios en San Carlos";
 
   return (
-    <Layout data={{ header, footer }} pageTitle={touristicPlace.title}>
-      <DetailsPage data={touristicPlace} title={detailsTitle} />
+    <Layout data={{ header, footer }} pageTitle={business.title}>
+      <DetailsPage data={business} title={detailsTitle} />
     </Layout>
   );
 };
@@ -21,33 +20,33 @@ export async function getStaticProps({ params }) {
   const { slug } = params;
   let { data } = await client.query({
     query: gql`
-      query {
-        touristicPlace(id: "${slug}", idType: SLUG) {
-          title
-          content {
-            cost
-            description
-            endDate
-            featuredImage {
-              altText
-              sourceUrl
+      query
+        {
+          business(id: "${slug}", idType: SLUG) {
+            contact {
+              email
+              facebook
+              instagram
+              name
+              tel
+              website
             }
-            freeAttend
-            organizationName
-            startDate
-            type
-            location {
-              city
-              country
-              streetName
-              streetNumber
-              longitude
-              latitude
-              streetAddress
+            content {
+              cost
+              description
+              endDate
+              featuredImage {
+                altText
+                sourceUrl
+              }
+              freeAttend
+              organizationName
+              startDate
+              type
             }
+            title
           }
         }
-      }
     `
   });
   let staticData = await fetch('http://localhost:3000/data/data.json');
@@ -65,7 +64,7 @@ export async function getStaticPaths() {
   const { data } = await client.query({
     query: gql`
       query {
-        touristicPlaces {
+        businesses {
           nodes {
             slug
           }
@@ -74,8 +73,8 @@ export async function getStaticPaths() {
     `
   });
 
-  const paths = data.touristicPlaces.nodes.map((place) => ({
-    params: { slug: place.slug },
+  const paths = data.businesses.nodes.map((business) => ({
+    params: { slug: business.slug },
   }));
 
   return { paths, fallback: false };

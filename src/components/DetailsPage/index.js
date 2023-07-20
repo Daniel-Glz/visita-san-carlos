@@ -2,10 +2,10 @@ import React from "react";
 import DetailsTwo from "./DetailsTwo";
 import PageHeader from "../PageHeader";
 
-const DetailsPage = ({ data }) => {
+const DetailsPage = ({ data, title }) => {
   return (
     <>
-      <PageHeader title="Eventos en San Carlos" />
+      <PageHeader title={title} />
       <DetailsTwo data={data} />
     </>
   );
