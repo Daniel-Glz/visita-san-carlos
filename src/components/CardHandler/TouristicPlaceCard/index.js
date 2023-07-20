@@ -1,24 +1,29 @@
 import React from "react";
 import { Image } from "react-bootstrap";
+import Link from "next/link";
 
-const TouristicPlaceCard = ({ image, name, category, score }) => {
+const TouristicPlaceCard = (item) => {
+  const { featuredImage, location } = item.content;
+  const { title } = item;
+
   return (
-    <div className="popular-tours__single">
+    <Link href={`lugares-turisticos/${item.slug}`} className="popular-tours__single">
       <div className="popular-tours__img touristic-place-card__img">
-        <Image src={image} alt="" />
+        <Image src={featuredImage.sourceUrl} alt={featuredImage.altText} />
       </div>
       <div className="popular-tours__content touristic-place-card__content">
         <h3 className="popular-tours__title touristic-place-card__title">
-          {name}
+          {title}
         </h3>
-        <p className="popular-tours__rate touristic-place-card__rate">
-          <span>{category}</span>
+        <p className="popular-tours__ubication touristic-place-card__ubication">
+          <i className="fas fa-map-marker-alt"></i>
+          <span className="popular-tours__address">{location.streetAddress}</span>
         </p>
-        <div className="popular-tours__stars touristic-place-card__stars">
-          <i className="fa fa-star"></i> {score}
+        <div className="thm-btn popular-tours__btn">
+            <span>Ver más</span>
         </div>
       </div>
-    </div>
+    </Link>
   );
 };
 

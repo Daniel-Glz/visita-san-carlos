@@ -6,6 +6,7 @@ import About from "@/components/About";
 import List from "@/components/List";
 import Testimonial from "@/components/Testimonial";
 import { getStaticData } from "@/utils";
+import { GET_TOURISTIC_PLACES_TEASER } from "@/graphql.queries";
 
 const LugaresTuristicos = ({ data }) => {
   const {
@@ -22,7 +23,7 @@ const LugaresTuristicos = ({ data }) => {
       <Banner data={banner} />
       <About data={about} />
       <Testimonial data={testimonial} />
-      <List data={list} />
+      <List staticData={list} type="touristicPlaces" query={GET_TOURISTIC_PLACES_TEASER}/>
     </Layout>
   );
 }

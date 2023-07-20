@@ -9,11 +9,15 @@ import '@/assets/styles/globals.css';
 import '@/assets/styles/style.css';
 import '@/assets/styles/style-responsive.css';
 import ContextProvider from '@/context/ContextProvider';
+import { ApolloProvider } from "@apollo/client";
+import client from '@/api/ApolloClient';
 
 const App = ({ Component, pageProps }) => {
   return (
     <ContextProvider>
-      <Component {...pageProps} />
+      <ApolloProvider client={client}>
+        <Component {...pageProps} />
+      </ApolloProvider>
     </ContextProvider>
   )
 }

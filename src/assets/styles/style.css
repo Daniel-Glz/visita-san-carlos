@@ -2105,6 +2105,16 @@ ul {
   position: relative;
 }
 
+.popular-tours__date {
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.popular-tours__text {
+  font-size: 15px;
+}
+
 .popular-tours__container {
   display: block;
   margin: 0 auto;
@@ -2123,12 +2133,15 @@ ul {
 .popular-tours__img {
   border-top-left-radius: 8px;
   border-top-right-radius: 8px;
+  height: 250px;
   display: block;
   overflow: hidden;
   position: relative;
 }
 
 .popular-tours__img img {
+  height: 100%;
+  object-fit: cover;
   -webkit-transform: scale(1);
   -webkit-transition: opacity 500ms ease, -webkit-transform 500ms ease;
   border-top-left-radius: 8px;
@@ -2147,6 +2160,10 @@ ul {
   -webkit-transform: scale(1.05);
   opacity: 1;
   transform: scale(1.05);
+}
+
+.popular-tours__single:hover .popular-tours__title {
+  color: var(--thm-primary);
 }
 
 .popular-tours__icon a {
@@ -2177,9 +2194,10 @@ ul {
 .popular-tours__icon-list {
   display: flex;
   padding-top: 10px;
+  margin-bottom: 1rem;
 }
 
-.popular-tours__icon-list > i {
+.popular-tours__icon-list > a {
   -webkit-transition: all 500ms ease;
   align-items: center;
   background-color: rgba(var(--thm-black-rgb), 0.3);
@@ -2197,7 +2215,7 @@ ul {
   margin-right: 10px;
 }
 
-.popular-tours__icon-list > i:hover {
+.popular-tours__icon-list > a:hover {
   color: var(--thm-base);
   background-color: var(--thm-primary);
 }
@@ -2259,6 +2277,15 @@ ul {
   color: var(--thm-primary);
   font-size: 20px;
   font-weight: 700;
+}
+
+.popular-tours__ubication span {
+  color: var(--thm-gray);
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: -0.02em;
+  margin-left: 10px;
+  line-height: 1px;
 }
 
 .popular-tours__meta {
@@ -3888,7 +3915,7 @@ ul {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: center;
+  object-position: bottom;
 }
 
 .video-two-bg:before {
@@ -4407,11 +4434,10 @@ ul {
 }
 
 .page-header-bg {
-  background-position: center;
+  background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
   bottom: 0;
-  filter: grayscale(100%);
   left: 0;
   position: absolute;
   right: 0;
@@ -4419,8 +4445,8 @@ ul {
 }
 
 .page-header-bg-overly {
-  background-color: rgba(var(--thm-black-rgb), 0.6);
   bottom: 0;
+  background-color: rgba(var(--thm-black-rgb), 0.7);
   left: 0;
   position: absolute;
   right: 0;

@@ -9,8 +9,11 @@ import CategoryList from '@/components/CategoryList';
 import PostList from '@/components/PostList';
 import Testimonial from '@/components/Testimonial';
 import ListInline from '@/components/ListInline';
+import { GET_TOTALS, GET_TOURISTIC_PLACES_TEASER } from '@/graphql.queries';
+import client from '@/api/ApolloClient';
+import { getStaticData } from '@/utils';
 
-export default function Home({ data }) {
+export default function Home({ data, staticData }) {
   const {
     meta,
     banner,
@@ -22,17 +25,17 @@ export default function Home({ data }) {
     categoryList,
     postList,
     testimonial
-  } = data.pages.home;
-
-  let { header, footer } = data;
+  } = staticData.pages.home;
+  const { header, footer } = staticData;
+  const { touristicPlaces, allTotals } = data;
   return (
     <Layout data={{ header, footer }} pageTitle={meta.title} >
       <Banner data={banner} />
       <ThreeIconSection data={threeIconSection} />
       <About data={about} />
-      <ListInline data={listInline} />
+      <ListInline  staticData={listInline} data={touristicPlaces.nodes} />
       <TouristicPlacesList data={touristicPlacesList} />
-      <Statistics data={statistics} />
+      <Statistics data={{ ...statistics, allTotals }} />
       <CategoryList data={categoryList} />
       <PostList data={postList} />
       <Testimonial data={testimonial} />
@@ -45,9 +48,34 @@ Home.propTypes = {
 }
 
 export async function getStaticProps() {
-  const res = await fetch('http://localhost:3000/data/data.json');
-  const data = await res.json();
+  let { data } = await client.query({
+    query: GET_TOURISTIC_PLACES_TEASER,
+    variables: { first: 8 }
+  });
+
+  let getAllTotals = await client.query({
+    query: GET_TOTALS
+  });
 
 
-  return { props: { data } }
+  const allTotals = {
+    events: getAllTotals.data.events.nodes.length,
+    businesses: getAllTotals.data.businesses.nodes.length,
+    touristicPlaces: getAllTotals.data.touristicPlaces.nodes.length,
+    posts: getAllTotals.data.posts.nodes.length
+  }
+
+  data = {
+    ...data,
+    allTotals
+  }
+
+  const staticData = await getStaticData();
+
+  return {
+    props: {
+      data,
+      staticData
+    }
+  }
 }

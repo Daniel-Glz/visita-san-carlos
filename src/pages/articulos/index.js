@@ -3,12 +3,16 @@ import Banner from "@/components/Banner";
 import Layout from "@/components/Layout";
 import PropTypes from 'prop-types';
 import About from "@/components/About";
+import List from "@/components/List";
+import { getStaticData } from "@/utils";
+import { GET_ARTICLES_TEASER } from "@/graphql.queries";
 
 const Articulos = ({ data }) => {
   const {
     meta,
     banner,
-    about
+    about,
+    list
   } = data.pages.articles;
   let { header, footer } = data;
 
@@ -16,6 +20,7 @@ const Articulos = ({ data }) => {
     <Layout data={{header, footer}} pageTitle={meta.title} isHome={true}>
       <Banner data={banner} />
       <About data={about} />
+      <List staticData={list} type="posts" query={GET_ARTICLES_TEASER}/>
     </Layout>
   );
 }
@@ -25,9 +30,7 @@ Articulos.propTypes = {
 };
 
 export async function getStaticProps() {
-  const res = await fetch('http://localhost:3000/data/data.json');
-  const data = await res.json();
-
+  let data = await getStaticData();
 
   return { props: { data } }
 }

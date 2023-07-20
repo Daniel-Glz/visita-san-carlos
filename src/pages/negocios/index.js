@@ -5,6 +5,7 @@ import PropTypes from 'prop-types';
 import About from "@/components/About";
 import List from "@/components/List";
 import { getStaticData } from "@/utils";
+import { GET_BUSINESSES_TEASER } from "@/graphql.queries";
 
 const Negocios = ({ data }) => {
   const {
@@ -19,7 +20,7 @@ const Negocios = ({ data }) => {
     <Layout data={{header, footer}} pageTitle={meta.title} isHome={true}>
       <Banner data={banner} />
       <About data={about} />
-      <List data={list} />
+      <List staticData={list} query={GET_BUSINESSES_TEASER} type={'businesses'} />
     </Layout>
   );
 }

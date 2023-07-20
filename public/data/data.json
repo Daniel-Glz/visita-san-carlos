@@ -230,7 +230,6 @@
         ]
       },
       "statistics": {
-        "bg": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Vistasancarlos-1-.jpg/1200px-Vistasancarlos-1-.jpg",
         "tagline": "Preparate y visitanos!",
         "title": "Nosotros te ayudamos a encontrar lo que buscas",
         "counter": {
@@ -289,7 +288,7 @@
         "title": "Ultimos articulos",
         "cta": {
           "text": "Ver todos los articulos",
-          "link": "blog.html"
+          "link": "/articulos"
         },
         "newsData": [
           {
@@ -439,14 +438,14 @@
         },
         "tagline": "Disfruta La belleza natural de San Carlos",
         "title": "Descubre los lugares turísticos de San Carlos",
-        "destination": "No pierdas la oportunidad de sumergirte en la belleza natural y cultural de San Carlos y deja que nuestra guía de Lugares Turísticos te lleve en un viaje inolvidable. ¡Visítanos ahora y comienza a planificar tus próximas vacaciones!.",
+        "destination": "No pierdas la oportunidad de sumergirte en la belleza natural y cultural de San Carlos y deja que nuestra guía de lugares turísticos te lleve en un viaje inolvidable. ¡Visítanos ahora y comienza a planificar tus próximas vacaciones!.",
         "points": [
           "disfruta de actividades acuaticas.",
           "Una impresionante diversidad natural.",
           "Una rica cultura local."
         ],
         "button": {
-          "text": "Ver mas",
+          "text": "Solicitar registro de lugar",
           "link": "/lugares-turisticos"
         }
       },
@@ -551,51 +550,7 @@
       },
       "list": {
         "tagline": "Visita uno de nuestros",
-        "title": "Lugares turisticos",
-        "cards": [
-          {
-            "type": "touristic",
-            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Vistasancarlos-1-.jpg/1200px-Vistasancarlos-1-.jpg",
-            "name": "National Park 2 Days Tour",
-            "score": "5.0",
-            "category": "Lorem ipsum"
-          },
-          {
-            "type": "touristic",
-            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Vistasancarlos-1-.jpg/1200px-Vistasancarlos-1-.jpg",
-            "name": "Magic of Italy Tours",
-            "score": "5.0",
-            "category": "Lorem ipsum"
-          },
-          {
-            "type": "touristic",
-            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Vistasancarlos-1-.jpg/1200px-Vistasancarlos-1-.jpg",
-            "name": "Discover Depth of Beach",
-            "score": "5.0",
-            "category": "Lorem ipsum"
-          },
-          {
-            "type": "touristic",
-            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Vistasancarlos-1-.jpg/1200px-Vistasancarlos-1-.jpg",
-            "name": "Moscow Red City Land",
-            "score": "5.0",
-            "category": "Lorem ipsum"
-          },
-          {
-            "type": "touristic",
-            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Vistasancarlos-1-.jpg/1200px-Vistasancarlos-1-.jpg",
-            "name": "Dark Forest Adventure",
-            "score": "5.0",
-            "category": "Lorem ipsum"
-          },
-          {
-            "type": "touristic",
-            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Vistasancarlos-1-.jpg/1200px-Vistasancarlos-1-.jpg",
-            "name": "Discover Depth of Beach",
-            "score": "5.0",
-            "category": "Lorem ipsum"
-          }
-        ]
+        "title": "Lugares turisticos"
       }
     },
     "events": {

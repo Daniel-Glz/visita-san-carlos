@@ -3,15 +3,14 @@ import Image from "next/image";
 import React, { Fragment } from "react";
 import PropTypes from "prop-types";
 
-const PostListItem = ({ news = {}, newsTwo = false }) => {
-  const { image, title, author, comments, date } = news;
+const PostListItem = ({ article }) => {
+  if (!article) return null;
+  const { image, title, author, date } = article;
 
   return (
     <div
-      className={
-        newsTwo ? "news-one__single animated fadeInUp" : "news-one__single"
-      }
-      style={{ userSelect: newsTwo ? "none" : "unset" }}
+      className="news-one__single"
+      style={{ userSelect: "unset" }}
     >
       <div className="news-one__img">
         <Image src={image} alt="" width={370} height={487} />
@@ -37,12 +36,6 @@ const PostListItem = ({ news = {}, newsTwo = false }) => {
                 {author}
             </Link>
           </li>
-          <li>
-            <Link href="/news-details">
-                <i className="far fa-comments"></i>
-                {comments} Comments
-            </Link>
-          </li>
         </ul>
         <h3 className="news-one__title">
           <Link href="/news-details">{title}</Link>
@@ -54,7 +47,6 @@ const PostListItem = ({ news = {}, newsTwo = false }) => {
 
 PostListItem.propTypes = {
   news: PropTypes.object,
-  newsTwo: PropTypes.bool,
 };
 
 export default PostListItem;

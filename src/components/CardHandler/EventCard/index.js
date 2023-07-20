@@ -2,44 +2,35 @@ import Link from "next/link";
 import React from "react";
 import { Image } from "react-bootstrap";
 
-const EventCard = ({ image, name, meta, rate, score }) => {
-
+const EventCard = (event) => {
   return (
-    <div>
+    <Link href={`/eventos/${event.slug}`}>
       <div
         className="popular-tours__single"
       >
         <div className="popular-tours__img">
           <Image
-            src={image}
+            src={event.content.featuredImage.sourceUrl}
             alt=""
           />
-          <div className="popular-tours__icon">
-            <Link href="/tour-details">
-              <i className="fa fa-heart"></i>
-            </Link>
-          </div>
         </div>
         <div className="popular-tours__content">
           <h3 className="popular-tours__title">
-            <Link href="/tour-details">{name}</Link>
+            <span>{event.title}</span>
           </h3>
-          <div className="popular-tours__stars">
-            <i className="fa fa-star"></i> {score}
+          <div className="popular-tours__date">
+            <i className="tevily-icon-clock"></i>
+            {event.content.startDate}
           </div>
-          <p className="popular-tours__rate">
-            <span>${rate}</span> / Por Persona
+          <p className="popular-tours__text">
+            {event.content.organizationName}
           </p>
-          <ul className="popular-tours__meta list-unstyled">
-            {meta.map((item, index) => (
-              <li key={index}>
-                <Link href="/tour-details">{item}</Link>
-              </li>
-            ))}
-          </ul>
+          <button className="thm-btn popular-tours__btn">
+            <span>Ver más</span>
+          </button>
         </div>
       </div>
-    </div>
+    </Link>
   );
 };
 

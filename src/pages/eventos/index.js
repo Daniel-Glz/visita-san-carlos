@@ -5,6 +5,7 @@ import PropTypes from 'prop-types';
 import About from "@/components/About";
 import List from "@/components/List";
 import { getStaticData } from "@/utils";
+import { GET_EVENTS } from "@/graphql.queries";
 
 const Eventos = ({ data }) => {
   const {
@@ -19,7 +20,7 @@ const Eventos = ({ data }) => {
     <Layout data={{header, footer}} pageTitle={meta.title} isHome={true}>
       <Banner data={banner} />
       <About data={about} />
-      <List data={list} />
+      <List staticData={list} type="events" query={GET_EVENTS} />
     </Layout>
   );
 }

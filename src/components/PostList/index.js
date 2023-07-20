@@ -33,7 +33,7 @@ const PostList = ({ data }) => {
           <Row>
             {newsData.map((news, index) => (
               <Col xl={4} lg={4} key={index} className="animated fadeInUp">
-                <PostListItem news={news} />
+                <PostListItem article={news} />
               </Col>
             ))}
           </Row>

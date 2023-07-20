@@ -34,8 +34,8 @@ const settings = {
   },
 };
 
-const ListInline = ({ data }) => {
-  const { items, title, subtitle } = data;
+const ListInline = ({ staticData, data }) => {
+  const { title, subtitle } = staticData;
 
   return (
     <section className="popular-tours">
@@ -48,8 +48,8 @@ const ListInline = ({ data }) => {
           <Col xl={12}>
             <div className="popular-tours__carousel">
               <TinySlider settings={settings}>
-                {items.map((item) => (
-                  <CardHandler card={item} />
+                {data.map((item, index) => (
+                  <CardHandler card={item} key={index} />
                 ))}
               </TinySlider>
             </div>

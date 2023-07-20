@@ -2,16 +2,18 @@ import React, { Fragment } from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import Counter from "@/components/Counter";
 import PropTypes from "prop-types";
+import Image from "next/image";
+import bg from "@/assets/images/resources/statistics-bg.png";
 
 const Statistics = ({ data }) => {
-  const { bg, tagline, title, counter } = data;
+  const { tagline, title, counter } = data;
 
   return (
     <>
       <div className="video-two">
         <div className="video-two-bg">
           <div className="video-two-bg__image">
-            <img src={bg} alt="" />
+            <Image src={bg.src} alt="" width={1600} height={900} />
           </div>
         </div>
         <Container>
