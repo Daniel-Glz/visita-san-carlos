@@ -3,14 +3,12 @@ import Banner from "@/components/Banner";
 import Layout from "@/components/Layout";
 import PropTypes from 'prop-types';
 import About from "@/components/About";
-import List from "@/components/List";
 
 const Articulos = ({ data }) => {
   const {
     meta,
     banner,
-    about,
-    list
+    about
   } = data.pages.articles;
   let { header, footer } = data;
 
@@ -18,7 +16,6 @@ const Articulos = ({ data }) => {
     <Layout data={{header, footer}} pageTitle={meta.title} isHome={true}>
       <Banner data={banner} />
       <About data={about} />
-      <List data={list} />
     </Layout>
   );
 }

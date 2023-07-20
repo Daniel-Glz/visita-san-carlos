@@ -3,6 +3,7 @@ import DetailsPage from "@/components/DetailsPage";
 import React from "react";
 import { gql } from "@apollo/client";
 import client from "@/api/ApolloClient";
+import { getStaticData } from "@/utils";
 
 const EventDetails = ({ data }) => {
   const { business } = data;
@@ -49,8 +50,7 @@ export async function getStaticProps({ params }) {
         }
     `
   });
-  let staticData = await fetch('http://localhost:3000/data/data.json');
-  staticData = await staticData.json();
+  let staticData = await getStaticData();
   data = { ...data, ...staticData };
 
   return {

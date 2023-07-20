@@ -4,6 +4,7 @@ import Layout from "@/components/Layout";
 import PropTypes from 'prop-types';
 import About from "@/components/About";
 import List from "@/components/List";
+import { getStaticData } from "@/utils";
 
 const Eventos = ({ data }) => {
   const {
