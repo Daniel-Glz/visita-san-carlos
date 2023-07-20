@@ -26,7 +26,7 @@ export default function Home({ data }) {
 
   let { header, footer } = data;
   return (
-    <Layout data={{ header, footer }} isHome={true} pageTitle={meta.title} >
+    <Layout data={{ header, footer }} pageTitle={meta.title} >
       <Banner data={banner} />
       <ThreeIconSection data={threeIconSection} />
       <About data={about} />
@@ -47,6 +47,7 @@ Home.propTypes = {
 export async function getStaticProps() {
   const res = await fetch('http://localhost:3000/data/data.json');
   const data = await res.json();
+
 
   return { props: { data } }
 }

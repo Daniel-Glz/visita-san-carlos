@@ -7,13 +7,13 @@ import PropTypes from "prop-types";
 import React from "react";
 import useScroll from "@/hooks/useScroll";
 
-const Header = ({ isHome, data }) => {
+const Header = ({ alternativeVersion, data }) => {
   const scrollTop = useScroll(130);
   const { icons, cta, logo, logo2, navItems } = data;
   const { toggleMenu, toggleSearch } = useRootContext();
 
   return (
-    <header className={classNames("main-header", "clearfix", { "main-header-two": !isHome })}>
+    <header className={classNames("main-header", "clearfix", { "main-header-two": !alternativeVersion })}>
       <div className="main-header__top">
         <Container>
           <div className="main-header__top-inner clearfix">
@@ -48,7 +48,7 @@ const Header = ({ isHome, data }) => {
           classNames(
             "main-menu",
             { "stricky-header stricked-menu main-menu stricky-fixed slideInDown animated clearfix": scrollTop },
-            { "main-menu-two": !isHome },
+            { "main-menu-two": !alternativeVersion },
             { "slideIn animated clearfix": !scrollTop }
           )
         }
@@ -67,8 +67,8 @@ const Header = ({ isHome, data }) => {
                 <div className="main-menu-wrapper__logo">
                   <Link href="/" aria-label="Imagen de logo">
                     <Image
-                      src={isHome ? logo2.src : logo.src}
-                      alt={isHome ? logo2.alt : logo.src}
+                      src={alternativeVersion ? logo2.src : logo.src}
+                      alt={alternativeVersion ? logo2.alt : logo.src}
                     />
                   </Link>
                 </div>
@@ -95,7 +95,7 @@ const Header = ({ isHome, data }) => {
 }
 
 Header.propTypes = {
-  isHome: PropTypes.bool,
+  alternativeVersion: PropTypes.bool,
 };
 
 export default Header;

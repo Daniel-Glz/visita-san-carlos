@@ -5,12 +5,12 @@ import { gql } from "@apollo/client";
 import client from "@/api/ApolloClient";
 
 const EventDetails = ({ data }) => {
-  const { event } = data;
+  const { touristicPlace } = data;
   let { header, footer } = data;
 
   return (
-    <Layout data={{ header, footer }} pageTitle={event.title}>
-      <DetailsPage data={event} />
+    <Layout data={{ header, footer }} pageTitle={touristicPlace.title}>
+      <DetailsPage data={touristicPlace} />
     </Layout>
   );
 };
@@ -20,34 +20,31 @@ export async function getStaticProps({ params }) {
   let { data } = await client.query({
     query: gql`
       query {
-          event(id: "${slug}", idType: SLUG) {
-            contact {
-              email
-              facebook
-              instagram
-              name
-              website
-              tel
+        touristicPlace(id: "${slug}", idType: SLUG) {
+          title
+          content {
+            cost
+            description
+            endDate
+            featuredImage {
+              altText
+              sourceUrl
             }
-            content {
-              cost
-              description
-              endDate
-              featuredImage {
-                altText
-                sourceUrl
-              }
-              freeAttend
-              location {
-                streetAddress
-              }
-              organizationName
-              startDate
-              type
+            freeAttend
+            organizationName
+            startDate
+            type
+            location {
+              city
+              country
+              streetName
+              streetNumber
+              longitude
+              latitude
+              streetAddress
             }
-            title
-            slug
           }
+        }
       }
     `
   });
@@ -66,7 +63,7 @@ export async function getStaticPaths() {
   const { data } = await client.query({
     query: gql`
       query {
-        events {
+        touristicPlaces {
           nodes {
             slug
           }
@@ -75,8 +72,8 @@ export async function getStaticPaths() {
     `
   });
 
-  const paths = data.events.nodes.map((event) => ({
-    params: { slug: event.slug },
+  const paths = data.touristicPlaces.nodes.map((place) => ({
+    params: { slug:place.slug },
   }));
 
   return { paths, fallback: false };

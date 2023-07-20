@@ -1,7 +1,7 @@
 import dynamic from "next/dynamic";
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import SingleTour from "../SingleTour";
+import CardHandler from "../CardHandler";
 import PropTypes from "prop-types";
 import 'tiny-slider/dist/tiny-slider.css';
 
@@ -48,8 +48,8 @@ const ListInline = ({ data }) => {
           <Col xl={12}>
             <div className="popular-tours__carousel">
               <TinySlider settings={settings}>
-                {items.map((item, index) => (
-                  <SingleTour key={index} tour={item} />
+                {items.map((item) => (
+                  <CardHandler card={item} />
                 ))}
               </TinySlider>
             </div>

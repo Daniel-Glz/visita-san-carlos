@@ -9,7 +9,7 @@ import Preloader from "@/components/Preloader";
 import Search from "@/components/Search";
 import Favicon from "../Favicon";
 
-const Layout = ({ children, isHome, pageTitle, data }) => {
+const Layout = ({ children, pageTitle, data, alternativeVersion }) => {
   const [loading, setLoading] = useState(true);
   const { menuStatus } = useRootContext();
 
@@ -30,7 +30,7 @@ const Layout = ({ children, isHome, pageTitle, data }) => {
       </Head>
       <Preloader loading={loading} />
       <main style={{ opacity: loading ? 0 : 1 }} className="page-wrapper">
-        <Header data={data.header} isHome={isHome} />
+        <Header data={data.header} alternativeVersion={!alternativeVersion} />
         {children}
         <Footer data={data.footer} />
       </main>
@@ -42,7 +42,7 @@ const Layout = ({ children, isHome, pageTitle, data }) => {
 
 Layout.propTypes = {
   children: PropTypes.node,
-  isHome: PropTypes.bool,
+  alternativeVersion: PropTypes.bool,
   pageTitle: PropTypes.string,
   data: PropTypes.object,
 };

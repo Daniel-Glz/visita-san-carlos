@@ -11,7 +11,7 @@ const Statistics = ({ data }) => {
       <div className="video-two">
         <div className="video-two-bg">
           <div className="video-two-bg__image">
-            <img src={bg.src} alt="" />
+            <img src={bg} alt="" />
           </div>
         </div>
         <Container>

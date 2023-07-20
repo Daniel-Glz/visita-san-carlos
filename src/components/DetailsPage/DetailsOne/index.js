@@ -2,7 +2,8 @@ import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 
 const DetailsOne = ({ data }) => {
-  const { title, rate, duration, minAge, tourType, location, date, superb } = data;
+  const { title } = data;
+  const { cost, startDate, endDate, type } = data.content;
 
   return (
     <section className="tour-details">
@@ -13,8 +14,8 @@ const DetailsOne = ({ data }) => {
               <div className="tour-details__top-inner">
                 <div className="tour-details__top-left">
                   <h2 className="tour-details__top-title">{title}</h2>
-                  <p className="tour-details__top-rate">
-                    <span>${rate}</span> / Per Person
+                  <p className="tour-details__top-cost">
+                    <span>{cost ? `${cost} / Por persona` : "Evento de acceso gratuito"}</span>
                   </p>
                 </div>
                 <div className="tour-details__top-right">
@@ -24,17 +25,17 @@ const DetailsOne = ({ data }) => {
                         <span className="icon-clock"></span>
                       </div>
                       <div className="text">
-                        <p>Duration</p>
-                        <h6>{duration}</h6>
+                        <p>Fecha de inicio</p>
+                        <h6>{startDate}</h6>
                       </div>
                     </li>
                     <li>
                       <div className="icon">
-                        <span className="icon-user"></span>
+                        <span className="icon-clock"></span>
                       </div>
                       <div className="text">
-                        <p>Min Age</p>
-                        <h6>{minAge}</h6>
+                        <p>Fecha de terminacion</p>
+                        <h6>{endDate}</h6>
                       </div>
                     </li>
                     <li>
@@ -42,17 +43,8 @@ const DetailsOne = ({ data }) => {
                         <span className="icon-plane"></span>
                       </div>
                       <div className="text">
-                        <p>Tour Type</p>
-                        <h6>{tourType}</h6>
-                      </div>
-                    </li>
-                    <li>
-                      <div className="icon">
-                        <span className="icon-place"></span>
-                      </div>
-                      <div className="text">
-                        <p>Location</p>
-                        <h6>{location}</h6>
+                        <p>Tipo de evento</p>
+                        <h6>{type}</h6>
                       </div>
                     </li>
                   </ul>
@@ -74,17 +66,7 @@ const DetailsOne = ({ data }) => {
                         <span className="icon-clock"></span>
                       </div>
                       <div className="text">
-                        <p>Posted {date}</p>
-                      </div>
-                    </li>
-                    <li>
-                      <div className="icon">
-                        {Array.from(Array(5)).map((_, i) => (
-                          <i key={i} className="fa fa-star"></i>
-                        ))}
-                      </div>
-                      <div className="text">
-                        <p>{superb} Superb</p>
+                        <p>Posted {startDate}</p>
                       </div>
                     </li>
                   </ul>

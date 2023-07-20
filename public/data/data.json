@@ -159,136 +159,46 @@
         "subtitle": "Lo que San Carlos te ofrece",
         "items": [
           {
+            "type": "touristic",
             "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Vistasancarlos-1-.jpg/1200px-Vistasancarlos-1-.jpg",
-            "title": "National Park 2 Days Tour",
-            "superb": "8.0",
-            "rate": "1870",
-            "meta": [
-              "3 Days",
-              "12+",
-              "Los Angeles"
-            ]
+            "name": "National Park 2 Days Tour",
+            "score": "5.0",
+            "category": "Lorem ipsum"
           },
           {
+            "type": "touristic",
             "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Vistasancarlos-1-.jpg/1200px-Vistasancarlos-1-.jpg",
-            "title": "Dark Forest Adventure",
-            "superb": "8.0",
-            "rate": "1870",
-            "meta": [
-              "3 Days",
-              "12+",
-              "Los Angeles"
-            ]
+            "name": "Magic of Italy Tours",
+            "score": "5.0",
+            "category": "Lorem ipsum"
           },
           {
+            "type": "touristic",
             "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Vistasancarlos-1-.jpg/1200px-Vistasancarlos-1-.jpg",
-            "title": "Discover Depth of Beach",
-            "superb": "8.0",
-            "rate": "1870",
-            "meta": [
-              "3 Days",
-              "12+",
-              "Los Angeles"
-            ]
+            "name": "Discover Depth of Beach",
+            "score": "5.0",
+            "category": "Lorem ipsum"
           },
           {
+            "type": "touristic",
             "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Vistasancarlos-1-.jpg/1200px-Vistasancarlos-1-.jpg",
-            "title": "Moscow Red City Land",
-            "superb": "8.0",
-            "rate": "1870",
-            "meta": [
-              "3 Days",
-              "12+",
-              "Los Angeles"
-            ]
+            "name": "Moscow Red City Land",
+            "score": "5.0",
+            "category": "Lorem ipsum"
           },
           {
+            "type": "touristic",
             "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Vistasancarlos-1-.jpg/1200px-Vistasancarlos-1-.jpg",
-            "title": "Magic of Italy Tours",
-            "superb": "8.0",
-            "rate": "1870",
-            "meta": [
-              "3 Days",
-              "12+",
-              "Los Angeles"
-            ]
+            "name": "Dark Forest Adventure",
+            "score": "5.0",
+            "category": "Lorem ipsum"
           },
           {
+            "type": "touristic",
             "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Vistasancarlos-1-.jpg/1200px-Vistasancarlos-1-.jpg",
-            "title": "National Park 2 Days Tour",
-            "superb": "8.0",
-            "rate": "1870",
-            "meta": [
-              "3 Days",
-              "12+",
-              "Los Angeles"
-            ]
-          },
-          {
-            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Vistasancarlos-1-.jpg/1200px-Vistasancarlos-1-.jpg",
-            "title": "Discover Depth of Beach",
-            "superb": "8.0",
-            "rate": "1870",
-            "meta": [
-              "3 Days",
-              "12+",
-              "Los Angeles"
-            ]
-          },
-          {
-            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Vistasancarlos-1-.jpg/1200px-Vistasancarlos-1-.jpg",
-            "title": "National Park 2 Days Tour",
-            "superb": "8.0",
-            "rate": "1870",
-            "meta": [
-              "3 Days",
-              "12+",
-              "Los Angeles"
-            ]
-          },
-          {
-            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Vistasancarlos-1-.jpg/1200px-Vistasancarlos-1-.jpg",
-            "title": "National Park 2 Days Tour",
-            "superb": "8.0",
-            "rate": "1870",
-            "meta": [
-              "3 Days",
-              "12+",
-              "Los Angeles"
-            ]
-          },
-          {
-            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Vistasancarlos-1-.jpg/1200px-Vistasancarlos-1-.jpg",
-            "title": "National Park 2 Days Tour",
-            "superb": "8.0",
-            "rate": "1870",
-            "meta": [
-              "3 Days",
-              "12+",
-              "Los Angeles"
-            ]
-          },
-          {
-            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Vistasancarlos-1-.jpg/1200px-Vistasancarlos-1-.jpg",
-            "title": "National Park 2 Days Tour",
-            "superb": "8.0",
-            "rate": "1870",
-            "meta": [
-              "3 Days",
-              "12+",
-              "Los Angeles"
-            ]
-          },
-          {
-            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Vistasancarlos-1-.jpg/1200px-Vistasancarlos-1-.jpg",
-            "title": "National Park 2 Days Tour",
-            "superb": "8.0",
-            "rate": "1870",
-            "meta": [
-              "3 Days",
-              "12+",
-              "Los Angeles"
-            ]
+            "name": "Discover Depth of Beach",
+            "score": "5.0",
+            "category": "Lorem ipsum"
           }
         ]
       },
@@ -320,7 +230,7 @@
         ]
       },
       "statistics": {
-        "bg": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwiki-random.fandom.com%2Fes%2Fwiki%2FPou&psig=AOvVaw3MCcQBCInkuoeNRS4Ytcq8&ust=1679273487838000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCLi6_7Hj5v0CFQAAAAAdAAAAABAD",
+        "bg": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Vistasancarlos-1-.jpg/1200px-Vistasancarlos-1-.jpg",
         "tagline": "Preparate y visitanos!",
         "title": "Nosotros te ayudamos a encontrar lo que buscas",
         "counter": {
@@ -642,58 +552,58 @@
       "list": {
         "tagline": "Visita uno de nuestros",
         "title": "Lugares turisticos",
-        "popularTours": [
+        "cards": [
           {
+            "type": "touristic",
             "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Vistasancarlos-1-.jpg/1200px-Vistasancarlos-1-.jpg",
-            "title": "National Park 2 Days Tour",
-            "superb": "8.0",
-            "rate": "1870",
-            "meta": ["3 Days", "12+", "Los Angeles"]
+            "name": "National Park 2 Days Tour",
+            "score": "5.0",
+            "category": "Lorem ipsum"
           },
           {
+            "type": "touristic",
             "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Vistasancarlos-1-.jpg/1200px-Vistasancarlos-1-.jpg",
-            "title": "Magic of Italy Tours",
-            "superb": "8.0",
-            "rate": "1870",
-            "meta": ["3 Days", "12+", "Los Angeles"]
+            "name": "Magic of Italy Tours",
+            "score": "5.0",
+            "category": "Lorem ipsum"
           },
           {
+            "type": "touristic",
             "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Vistasancarlos-1-.jpg/1200px-Vistasancarlos-1-.jpg",
-            "title": "Discover Depth of Beach",
-            "superb": "8.0",
-            "rate": "1870",
-            "meta": ["3 Days", "12+", "Los Angeles"]
+            "name": "Discover Depth of Beach",
+            "score": "5.0",
+            "category": "Lorem ipsum"
           },
           {
+            "type": "touristic",
             "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Vistasancarlos-1-.jpg/1200px-Vistasancarlos-1-.jpg",
-            "title": "Moscow Red City Land",
-            "superb": "8.0",
-            "rate": "1870",
-            "meta": ["3 Days", "12+", "Los Angeles"]
+            "name": "Moscow Red City Land",
+            "score": "5.0",
+            "category": "Lorem ipsum"
           },
           {
+            "type": "touristic",
             "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Vistasancarlos-1-.jpg/1200px-Vistasancarlos-1-.jpg",
-            "title": "Dark Forest Adventure",
-            "superb": "8.0",
-            "rate": "1870",
-            "meta": ["3 Days", "12+", "Los Angeles"]
+            "name": "Dark Forest Adventure",
+            "score": "5.0",
+            "category": "Lorem ipsum"
           },
           {
+            "type": "touristic",
             "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Vistasancarlos-1-.jpg/1200px-Vistasancarlos-1-.jpg",
-            "title": "Discover Depth of Beach",
-            "superb": "8.0",
-            "rate": "1870",
-            "meta": ["3 Days", "12+", "Los Angeles"]
+            "name": "Discover Depth of Beach",
+            "score": "5.0",
+            "category": "Lorem ipsum"
           }
         ]
       }
     },
     "events": {
       "meta": {
-        "title": "Lugares turisticos en San Carlos"
+        "title": "Eventos en San Carlos"
       },
       "banner": {
-        "title": "Lugares turisticos en San Carlos",
+        "title": "Eventos en San Carlos",
         "bottomText": "Vive una aventura inolvidable",
         "subtitle": "Lorem ipsum dolor",
         "slides": [
@@ -726,46 +636,52 @@
       "list": {
         "tagline": "Visita uno de nuestros",
         "title": "Lugares turisticos populares",
-        "popularTours": [
+        "cards": [
           {
+            "type": "event",
             "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Vistasancarlos-1-.jpg/1200px-Vistasancarlos-1-.jpg",
-            "title": "National Park 2 Days Tour",
-            "superb": "8.0",
+            "name": "National Park 2 Days Tour",
+            "score": "8.0",
             "rate": "1870",
             "meta": ["3 Days", "12+", "Los Angeles"]
           },
           {
+            "type": "event",
             "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Vistasancarlos-1-.jpg/1200px-Vistasancarlos-1-.jpg",
-            "title": "Magic of Italy Tours",
-            "superb": "8.0",
+            "name": "Magic of Italy Tours",
+            "score": "8.0",
             "rate": "1870",
             "meta": ["3 Days", "12+", "Los Angeles"]
           },
           {
+            "type": "event",
             "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Vistasancarlos-1-.jpg/1200px-Vistasancarlos-1-.jpg",
-            "title": "Discover Depth of Beach",
-            "superb": "8.0",
+            "name": "Discover Depth of Beach",
+            "score": "8.0",
             "rate": "1870",
             "meta": ["3 Days", "12+", "Los Angeles"]
           },
           {
+            "type": "event",
             "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Vistasancarlos-1-.jpg/1200px-Vistasancarlos-1-.jpg",
-            "title": "Moscow Red City Land",
-            "superb": "8.0",
+            "name": "Moscow Red City Land",
+            "score": "8.0",
             "rate": "1870",
             "meta": ["3 Days", "12+", "Los Angeles"]
           },
           {
+            "type": "event",
             "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Vistasancarlos-1-.jpg/1200px-Vistasancarlos-1-.jpg",
-            "title": "Dark Forest Adventure",
-            "superb": "8.0",
+            "name": "Dark Forest Adventure",
+            "score": "8.0",
             "rate": "1870",
             "meta": ["3 Days", "12+", "Los Angeles"]
           },
           {
+            "type": "event",
             "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Vistasancarlos-1-.jpg/1200px-Vistasancarlos-1-.jpg",
-            "title": "Discover Depth of Beach",
-            "superb": "8.0",
+            "name": "Discover Depth of Beach",
+            "score": "8.0",
             "rate": "1870",
             "meta": ["3 Days", "12+", "Los Angeles"]
           }
@@ -774,10 +690,10 @@
     },
     "business": {
       "meta": {
-        "title": "Lugares turisticos en San Carlos"
+        "title": "Directorio de negocios en San Carlos"
       },
       "banner": {
-        "title": "Lugares turisticos en San Carlos",
+        "title": "Directorio de negocios en San Carlos",
         "bottomText": "Vive una aventura inolvidable",
         "subtitle": "Lorem ipsum dolor",
         "slides": [
@@ -810,58 +726,76 @@
       "list": {
         "tagline": "Visita uno de nuestros",
         "title": "Lugares turisticos populares",
-        "popularTours": [
+        "cards": [
           {
+            "type": "business",
+            "category": "Lorem ipsum",
             "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Vistasancarlos-1-.jpg/1200px-Vistasancarlos-1-.jpg",
-            "title": "National Park 2 Days Tour",
-            "superb": "8.0",
-            "rate": "1870",
-            "meta": ["3 Days", "12+", "Los Angeles"]
+            "name": "National Park 2 Days Tour",
+            "score": "8.0",
+            "facebook": "/",
+            "instagram": "/",
+            "website": "/"
           },
           {
+            "type": "business",
+            "category": "Lorem ipsum",
             "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Vistasancarlos-1-.jpg/1200px-Vistasancarlos-1-.jpg",
-            "title": "Magic of Italy Tours",
-            "superb": "8.0",
-            "rate": "1870",
-            "meta": ["3 Days", "12+", "Los Angeles"]
+            "name": "Magic of Italy Tours",
+            "score": "8.0",
+            "facebook": "/",
+            "instagram": "/",
+            "website": "/"
           },
           {
+            "type": "business",
+            "category": "Lorem ipsum",
             "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Vistasancarlos-1-.jpg/1200px-Vistasancarlos-1-.jpg",
-            "title": "Discover Depth of Beach",
-            "superb": "8.0",
-            "rate": "1870",
-            "meta": ["3 Days", "12+", "Los Angeles"]
+            "name": "Discover Depth of Beach",
+            "score": "8.0",
+            "facebook": "/",
+            "instagram": "/",
+            "website": "/"
           },
           {
+            "type": "business",
+            "category": "Lorem ipsum",
             "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Vistasancarlos-1-.jpg/1200px-Vistasancarlos-1-.jpg",
-            "title": "Moscow Red City Land",
-            "superb": "8.0",
-            "rate": "1870",
-            "meta": ["3 Days", "12+", "Los Angeles"]
+            "name": "Moscow Red City Land",
+            "score": "8.0",
+            "facebook": "/",
+            "instagram": "/",
+            "website": "/"
           },
           {
+            "type": "business",
+            "category": "Lorem ipsum",
             "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Vistasancarlos-1-.jpg/1200px-Vistasancarlos-1-.jpg",
-            "title": "Dark Forest Adventure",
-            "superb": "8.0",
-            "rate": "1870",
-            "meta": ["3 Days", "12+", "Los Angeles"]
+            "name": "Dark Forest Adventure",
+            "score": "8.0",
+            "facebook": "/",
+            "instagram": "/",
+            "website": "/"
           },
           {
+            "type": "business",
+            "category": "Lorem ipsum",
             "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Vistasancarlos-1-.jpg/1200px-Vistasancarlos-1-.jpg",
-            "title": "Discover Depth of Beach",
-            "superb": "8.0",
-            "rate": "1870",
-            "meta": ["3 Days", "12+", "Los Angeles"]
+            "name": "Discover Depth of Beach",
+            "score": "8.0",
+            "facebook": "/",
+            "instagram": "/",
+            "website": "/"
           }
         ]
       }
     },
     "articles": {
       "meta": {
-        "title": "Lugares turisticos en San Carlos"
+        "title": "Articulos"
       },
       "banner": {
-        "title": "Lugares turisticos en San Carlos",
+        "title": "Articulos sobre San Carlos",
         "bottomText": "Vive una aventura inolvidable",
         "subtitle": "Lorem ipsum dolor",
         "slides": [

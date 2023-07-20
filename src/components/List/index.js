@@ -1,9 +1,10 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import ListItem from "./ListItem";
+import CardHandler from "../CardHandler";
+import PropTypes from "prop-types";
 
 const List = ({ data, toursPage = false }) => {
-  const { tagline, title, popularTours } = data;
+  const { tagline, title, cards } = data;
 
   return (
     <section className="popular-tours-two">
@@ -15,7 +16,7 @@ const List = ({ data, toursPage = false }) => {
           </div>
         )}
         <Row>
-          {popularTours.map((tour, index) => (
+          {cards.map((card, index) => (
             <Col
               key={index}
               xl={4}
@@ -23,13 +24,18 @@ const List = ({ data, toursPage = false }) => {
               md={6}
               className="animated fadeInUp"
             >
-              <ListItem tour={tour} userSelect />
+              <CardHandler card={card} />
             </Col>
           ))}
         </Row>
       </Container>
     </section>
   );
+};
+
+List.propTypes = {
+  data: PropTypes.object,
+  toursPage: PropTypes.bool
 };
 
 export default List;
