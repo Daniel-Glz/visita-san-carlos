@@ -1,7 +1,6 @@
 import React from "react";
 import Banner from "@/components/Banner";
 import Layout from "@/components/Layout";
-import { convertNamingConvention } from "@/utils";
 import PropTypes from 'prop-types';
 import About from "@/components/About";
 import List from "@/components/List";
@@ -12,10 +11,8 @@ const Negocios = ({ data }) => {
     banner,
     about,
     list
-  } = convertNamingConvention(data.pages.business);
+  } = data.pages.business
   let { header, footer } = data;
-  header = convertNamingConvention(header);
-  footer = convertNamingConvention(footer);
 
   return (
     <Layout data={{header, footer}} pageTitle={meta.title} isHome={true}>

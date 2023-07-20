@@ -3,8 +3,7 @@ import { Col, Container, Row } from "react-bootstrap";
 import PropTypes from "prop-types";
 
 const Banner = ({ data }) => {
-  const { sub_title, title, bottomText, slides } = data;
-  const subTitle = sub_title;
+  const { subtitle, title, bottomText, slides } = data;
 
   return (
     <section className="banner">
@@ -22,7 +21,7 @@ const Banner = ({ data }) => {
         <Row>
           <Col xl={12}>
             <div className="banner__content">
-              <p className="banner__sub-title">{subTitle}</p>
+              <p className="banner__sub-title">{subtitle}</p>
               <h1 className="banner__title">{title}</h1>
               <div className="tour-search-box">
                 <p className="banner__bottom-text">{bottomText}</p>

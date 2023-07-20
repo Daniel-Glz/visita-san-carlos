@@ -1,18 +1,15 @@
 import Layout from "@/components/Layout";
 import Slider from "@/components/Slider";
 import DetailsPage from "@/components/DetailsPage";
-import { convertNamingConvention } from "@/utils";
 import React from "react";
 
 const EventDetails = ({data}) => {
   const {
     slider,
     detailsPage
-  } = convertNamingConvention(data.example);
+  } = data.example;
 
   let { header, footer } = data;
-  header = convertNamingConvention(header);
-  footer = convertNamingConvention(footer);
 
   return (
     <Layout data={{header, footer}} pageTitle="Eventos en San Carlos">

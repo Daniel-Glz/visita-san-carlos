@@ -5,7 +5,6 @@ import Banner from '@/components/Banner';
 import ThreeIconSection from '@/components/ThreeIconSection';
 import TouristicPlacesList from '@/components/TouristicPlacesList';
 import Statistics from '@/components/Statistics';
-import { convertNamingConvention } from '@/utils';
 import CategoryList from '@/components/CategoryList';
 import PostList from '@/components/PostList';
 import Testimonial from '@/components/Testimonial';
@@ -23,11 +22,9 @@ export default function Home({ data }) {
     categoryList,
     postList,
     testimonial
-  } = convertNamingConvention(data.pages.home);
+  } = data.pages.home;
 
   let { header, footer } = data;
-  header = convertNamingConvention(header);
-  footer = convertNamingConvention(footer);
   return (
     <Layout data={{ header, footer }} isHome={true} pageTitle={meta.title} >
       <Banner data={banner} />

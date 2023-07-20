@@ -21,7 +21,7 @@
       "src": "/logo-2.png"
     },
     "social": [],
-    "nav_items": [
+    "navItems": [
       {
         "href": "/",
         "id": 1,
@@ -105,10 +105,10 @@
         "slides": [
           "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Vistasancarlos-1-.jpg/1200px-Vistasancarlos-1-.jpg"
         ],
-        "sub_title": "Visita nuesto hermoso pueblo",
+        "subtitle": "Visita nuesto hermoso pueblo",
         "title": "San Carlos, Sonora"
       },
-      "three_icon_section": {
+      "threeIconSection": {
         "items": [
           {
             "id": 1,
@@ -154,7 +154,7 @@
           "link": "/lugares-turisticos"
         }
       },
-      "list_inline": {
+      "listInline": {
         "title": "Lugares turisticos mas populares",
         "subtitle": "Lo que San Carlos te ofrece",
         "items": [
@@ -292,7 +292,7 @@
           }
         ]
       },
-      "touristic_places_list": {
+      "touristicPlacesList": {
         "bg": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwiki-random.fandom.com%2Fes%2Fwiki%2FPou&psig=AOvVaw3MCcQBCInkuoeNRS4Ytcq8&ust=1679273487838000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCLi6_7Hj5v0CFQAAAAAdAAAAABAD",
         "tagline": "Descubre San Carlos",
         "title": "Elige que tipo de negocio / lugar buscas",
@@ -344,7 +344,7 @@
           ]
         }
       },
-      "category_list": {
+      "categoryList": {
         "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwiki-random.fandom.com%2Fes%2Fwiki%2FPou&psig=AOvVaw3MCcQBCInkuoeNRS4Ytcq8&ust=1679273487838000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCLi6_7Hj5v0CFQAAAAAdAAAAABAD",
         "tagline": "Nuestro directorio de negocios",
         "title": "Algunos de los negocios locales mas populares",
@@ -374,7 +374,7 @@
         ],
         "off": "30%"
       },
-      "post_list": {
+      "postList": {
         "tagline": "Nuestro blog",
         "title": "Ultimos articulos",
         "cta": {
@@ -512,7 +512,7 @@
       "banner": {
         "title": "Lugares turisticos en San Carlos",
         "bottomText": "Vive una aventura inolvidable",
-        "sub_title": "Lorem ipsum dolor",
+        "subtitle": "Lorem ipsum dolor",
         "slides": [
           "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Vistasancarlos-1-.jpg/1200px-Vistasancarlos-1-.jpg"
         ]
@@ -695,7 +695,7 @@
       "banner": {
         "title": "Lugares turisticos en San Carlos",
         "bottomText": "Vive una aventura inolvidable",
-        "sub_title": "Lorem ipsum dolor",
+        "subtitle": "Lorem ipsum dolor",
         "slides": [
           "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Vistasancarlos-1-.jpg/1200px-Vistasancarlos-1-.jpg"
         ]
@@ -779,7 +779,7 @@
       "banner": {
         "title": "Lugares turisticos en San Carlos",
         "bottomText": "Vive una aventura inolvidable",
-        "sub_title": "Lorem ipsum dolor",
+        "subtitle": "Lorem ipsum dolor",
         "slides": [
           "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Vistasancarlos-1-.jpg/1200px-Vistasancarlos-1-.jpg"
         ]
@@ -863,7 +863,7 @@
       "banner": {
         "title": "Lugares turisticos en San Carlos",
         "bottomText": "Vive una aventura inolvidable",
-        "sub_title": "Lorem ipsum dolor",
+        "subtitle": "Lorem ipsum dolor",
         "slides": [
           "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Vistasancarlos-1-.jpg/1200px-Vistasancarlos-1-.jpg"
         ]
